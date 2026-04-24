@@ -1,0 +1,781 @@
+Year,Field,Nationality,University,Foreign_Count,Total,Foreign_Share_%
+2012,1.1 Theologie,Ausland,UZH,55,159,34.6
+2012,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,180,444,40.5
+2012,1.3 Historische und Kulturwissenschaften,Ausland,UZH,125,396,31.6
+2012,1.4 Sozialwissenschaften,Ausland,UZH,242,687,35.2
+2012,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,251,677,37.1
+2012,2 Wirtschaftswissenschaften,Ausland,UZH,376,756,49.7
+2012,3 Recht,Ausland,UZH,101,621,16.3
+2012,4.1 Exakte Wissenschaften,Ausland,UZH,254,399,63.7
+2012,4.2 Naturwissenschaften,Ausland,UZH,739,1411,52.4
+2012,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,36,82,43.9
+2012,5.1 Humanmedizin,Ausland,UZH,1404,3605,38.9
+2012,5.2 Zahnmedizin,Ausland,UZH,130,440,29.5
+2012,5.3 Veterinärmedizin,Ausland,UZH,242,720,33.6
+2012,5.4 Pharmazie,Ausland,UZH,0,0,
+2012,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,1,12,8.3
+2012,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2012,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2012,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2012,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2012,7 Interdisziplinäre und Andere,Ausland,UZH,3,16,18.8
+2012,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2012,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2012,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2012,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2012,99.99 Fach nicht zuteilbar,Ausland,UZH,8,15,53.3
+2012,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2012,8.1 Zentrale Verwaltung,Ausland,UZH,66,416,15.9
+2012,8.2 Zentrale Bibliotheken,Ausland,UZH,3,44,6.8
+2012,8.3 Technische Dienste und Logistik,Ausland,UZH,111,295,37.6
+2012,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,13,78,16.7
+2013,1.1 Theologie,Ausland,UZH,62,165,37.6
+2013,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,256,645,39.7
+2013,1.3 Historische und Kulturwissenschaften,Ausland,UZH,163,499,32.7
+2013,1.4 Sozialwissenschaften,Ausland,UZH,281,821,34.2
+2013,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,122,394,31.0
+2013,2 Wirtschaftswissenschaften,Ausland,UZH,423,832,50.8
+2013,3 Recht,Ausland,UZH,117,651,18.0
+2013,4.1 Exakte Wissenschaften,Ausland,UZH,289,446,64.8
+2013,4.2 Naturwissenschaften,Ausland,UZH,787,1465,53.7
+2013,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,1,18,5.6
+2013,5.1 Humanmedizin,Ausland,UZH,1725,4094,42.1
+2013,5.2 Zahnmedizin,Ausland,UZH,140,466,30.0
+2013,5.3 Veterinärmedizin,Ausland,UZH,297,830,35.8
+2013,5.4 Pharmazie,Ausland,UZH,0,0,
+2013,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,0,0,
+2013,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2013,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2013,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2013,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2013,7 Interdisziplinäre und Andere,Ausland,UZH,0,0,
+2013,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2013,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2013,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2013,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2013,99.99 Fach nicht zuteilbar,Ausland,UZH,4,8,50.0
+2013,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2013,8.1 Zentrale Verwaltung,Ausland,UZH,84,498,16.9
+2013,8.2 Zentrale Bibliotheken,Ausland,UZH,4,46,8.7
+2013,8.3 Technische Dienste und Logistik,Ausland,UZH,116,313,37.1
+2013,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,16,82,19.5
+2014,1.1 Theologie,Ausland,UZH,53,136,39.0
+2014,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,242,597,40.5
+2014,1.3 Historische und Kulturwissenschaften,Ausland,UZH,155,470,33.0
+2014,1.4 Sozialwissenschaften,Ausland,UZH,245,675,36.3
+2014,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,142,442,32.1
+2014,2 Wirtschaftswissenschaften,Ausland,UZH,380,731,52.0
+2014,3 Recht,Ausland,UZH,102,582,17.5
+2014,4.1 Exakte Wissenschaften,Ausland,UZH,263,399,65.9
+2014,4.2 Naturwissenschaften,Ausland,UZH,655,1242,52.7
+2014,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,1,11,9.1
+2014,5.1 Humanmedizin,Ausland,UZH,1565,3813,41.0
+2014,5.2 Zahnmedizin,Ausland,UZH,127,426,29.8
+2014,5.3 Veterinärmedizin,Ausland,UZH,295,802,36.8
+2014,5.4 Pharmazie,Ausland,UZH,0,0,
+2014,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,0,0,
+2014,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2014,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2014,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2014,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2014,7 Interdisziplinäre und Andere,Ausland,UZH,0,0,
+2014,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2014,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2014,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2014,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2014,99.99 Fach nicht zuteilbar,Ausland,UZH,5,12,41.7
+2014,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2014,8.1 Zentrale Verwaltung,Ausland,UZH,28,197,14.2
+2014,8.2 Zentrale Bibliotheken,Ausland,UZH,5,43,11.6
+2014,8.3 Technische Dienste und Logistik,Ausland,UZH,109,305,35.7
+2014,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,70,339,20.6
+2015,1.1 Theologie,Ausland,UZH,54,143,37.8
+2015,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,258,616,41.9
+2015,1.3 Historische und Kulturwissenschaften,Ausland,UZH,172,488,35.2
+2015,1.4 Sozialwissenschaften,Ausland,UZH,244,667,36.6
+2015,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,128,385,33.2
+2015,2 Wirtschaftswissenschaften,Ausland,UZH,381,725,52.6
+2015,3 Recht,Ausland,UZH,110,601,18.3
+2015,4.1 Exakte Wissenschaften,Ausland,UZH,265,400,66.2
+2015,4.2 Naturwissenschaften,Ausland,UZH,699,1307,53.5
+2015,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,3,17,17.6
+2015,5.1 Humanmedizin,Ausland,UZH,1672,3907,42.8
+2015,5.2 Zahnmedizin,Ausland,UZH,114,408,27.9
+2015,5.3 Veterinärmedizin,Ausland,UZH,312,812,38.4
+2015,5.4 Pharmazie,Ausland,UZH,0,0,
+2015,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,0,0,
+2015,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2015,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2015,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2015,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2015,7 Interdisziplinäre und Andere,Ausland,UZH,0,0,
+2015,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2015,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2015,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2015,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2015,99.99 Fach nicht zuteilbar,Ausland,UZH,2,5,40.0
+2015,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2015,8.1 Zentrale Verwaltung,Ausland,UZH,62,405,15.3
+2015,8.2 Zentrale Bibliotheken,Ausland,UZH,7,44,15.9
+2015,8.3 Technische Dienste und Logistik,Ausland,UZH,115,325,35.4
+2015,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,40,160,25.0
+2016,1.1 Theologie,Ausland,UZH,50,146,34.2
+2016,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,280,688,40.7
+2016,1.3 Historische und Kulturwissenschaften,Ausland,UZH,166,479,34.7
+2016,1.4 Sozialwissenschaften,Ausland,UZH,239,670,35.7
+2016,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,131,392,33.4
+2016,2 Wirtschaftswissenschaften,Ausland,UZH,395,751,52.6
+2016,3 Recht,Ausland,UZH,95,594,16.0
+2016,4.1 Exakte Wissenschaften,Ausland,UZH,271,399,67.9
+2016,4.2 Naturwissenschaften,Ausland,UZH,694,1291,53.8
+2016,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,4,19,21.1
+2016,5.1 Humanmedizin,Ausland,UZH,1721,4056,42.4
+2016,5.2 Zahnmedizin,Ausland,UZH,119,407,29.2
+2016,5.3 Veterinärmedizin,Ausland,UZH,339,833,40.7
+2016,5.4 Pharmazie,Ausland,UZH,0,0,
+2016,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,0,0,
+2016,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2016,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2016,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2016,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2016,7 Interdisziplinäre und Andere,Ausland,UZH,0,0,
+2016,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2016,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2016,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2016,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2016,99.99 Fach nicht zuteilbar,Ausland,UZH,3,6,50.0
+2016,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2016,8.1 Zentrale Verwaltung,Ausland,UZH,70,425,16.5
+2016,8.2 Zentrale Bibliotheken,Ausland,UZH,9,52,17.3
+2016,8.3 Technische Dienste und Logistik,Ausland,UZH,119,328,36.3
+2016,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,40,155,25.8
+2017,1.1 Theologie,Ausland,UZH,49,143,34.3
+2017,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,284,728,39.0
+2017,1.3 Historische und Kulturwissenschaften,Ausland,UZH,194,576,33.7
+2017,1.4 Sozialwissenschaften,Ausland,UZH,294,760,38.7
+2017,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,44,181,24.3
+2017,2 Wirtschaftswissenschaften,Ausland,UZH,396,710,55.8
+2017,3 Recht,Ausland,UZH,95,616,15.4
+2017,4.1 Exakte Wissenschaften,Ausland,UZH,278,392,70.9
+2017,4.2 Naturwissenschaften,Ausland,UZH,653,1240,52.7
+2017,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,7,23,30.4
+2017,5.1 Humanmedizin,Ausland,UZH,1806,4202,43.0
+2017,5.2 Zahnmedizin,Ausland,UZH,131,432,30.3
+2017,5.3 Veterinärmedizin,Ausland,UZH,318,785,40.5
+2017,5.4 Pharmazie,Ausland,UZH,0,0,
+2017,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,0,0,
+2017,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2017,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2017,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2017,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2017,7 Interdisziplinäre und Andere,Ausland,UZH,0,0,
+2017,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2017,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2017,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2017,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2017,99.99 Fach nicht zuteilbar,Ausland,UZH,1,6,16.7
+2017,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2017,8.1 Zentrale Verwaltung,Ausland,UZH,77,451,17.1
+2017,8.2 Zentrale Bibliotheken,Ausland,UZH,9,51,17.6
+2017,8.3 Technische Dienste und Logistik,Ausland,UZH,119,328,36.3
+2017,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,45,153,29.4
+2018,1.1 Theologie,Ausland,UZH,46,134,34.3
+2018,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,285,709,40.2
+2018,1.3 Historische und Kulturwissenschaften,Ausland,UZH,181,547,33.1
+2018,1.4 Sozialwissenschaften,Ausland,UZH,329,861,38.2
+2018,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,21,89,23.6
+2018,2 Wirtschaftswissenschaften,Ausland,UZH,340,608,55.9
+2018,3 Recht,Ausland,UZH,80,606,13.2
+2018,4.1 Exakte Wissenschaften,Ausland,UZH,396,562,70.5
+2018,4.2 Naturwissenschaften,Ausland,UZH,779,1410,55.2
+2018,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,15,43,34.9
+2018,5.1 Humanmedizin,Ausland,UZH,1675,3914,42.8
+2018,5.2 Zahnmedizin,Ausland,UZH,113,406,27.8
+2018,5.3 Veterinärmedizin,Ausland,UZH,313,787,39.8
+2018,5.4 Pharmazie,Ausland,UZH,0,0,
+2018,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,0,0,
+2018,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2018,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2018,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2018,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2018,7 Interdisziplinäre und Andere,Ausland,UZH,7,11,63.6
+2018,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2018,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2018,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2018,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2018,99.99 Fach nicht zuteilbar,Ausland,UZH,2,6,33.3
+2018,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2018,8.1 Zentrale Verwaltung,Ausland,UZH,95,520,18.3
+2018,8.2 Zentrale Bibliotheken,Ausland,UZH,8,48,16.7
+2018,8.3 Technische Dienste und Logistik,Ausland,UZH,114,329,34.7
+2018,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,25,100,25.0
+2019,1.1 Theologie,Ausland,UZH,49,140,35.0
+2019,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,265,679,39.0
+2019,1.3 Historische und Kulturwissenschaften,Ausland,UZH,192,547,35.1
+2019,1.4 Sozialwissenschaften,Ausland,UZH,326,895,36.4
+2019,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,57,193,29.5
+2019,2 Wirtschaftswissenschaften,Ausland,UZH,357,649,55.0
+2019,3 Recht,Ausland,UZH,93,652,14.3
+2019,4.1 Exakte Wissenschaften,Ausland,UZH,405,587,69.0
+2019,4.2 Naturwissenschaften,Ausland,UZH,805,1427,56.4
+2019,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,30,66,45.5
+2019,5.1 Humanmedizin,Ausland,UZH,1909,4492,42.5
+2019,5.2 Zahnmedizin,Ausland,UZH,127,433,29.3
+2019,5.3 Veterinärmedizin,Ausland,UZH,319,801,39.8
+2019,5.4 Pharmazie,Ausland,UZH,0,0,
+2019,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,0,0,
+2019,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2019,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2019,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2019,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2019,7 Interdisziplinäre und Andere,Ausland,UZH,12,21,57.1
+2019,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2019,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2019,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2019,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2019,99.99 Fach nicht zuteilbar,Ausland,UZH,6,8,75.0
+2019,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2019,8.1 Zentrale Verwaltung,Ausland,UZH,99,521,19.0
+2019,8.2 Zentrale Bibliotheken,Ausland,UZH,8,54,14.8
+2019,8.3 Technische Dienste und Logistik,Ausland,UZH,120,339,35.4
+2019,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,32,116,27.6
+2020,1.1 Theologie,Ausland,UZH,46,138,33.3
+2020,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,278,723,38.5
+2020,1.3 Historische und Kulturwissenschaften,Ausland,UZH,204,552,37.0
+2020,1.4 Sozialwissenschaften,Ausland,UZH,343,884,38.8
+2020,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,76,214,35.5
+2020,2 Wirtschaftswissenschaften,Ausland,UZH,370,669,55.3
+2020,3 Recht,Ausland,UZH,102,662,15.4
+2020,4.1 Exakte Wissenschaften,Ausland,UZH,431,627,68.7
+2020,4.2 Naturwissenschaften,Ausland,UZH,854,1512,56.5
+2020,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,25,61,41.0
+2020,5.1 Humanmedizin,Ausland,UZH,1969,4577,43.0
+2020,5.2 Zahnmedizin,Ausland,UZH,127,434,29.3
+2020,5.3 Veterinärmedizin,Ausland,UZH,341,829,41.1
+2020,5.4 Pharmazie,Ausland,UZH,0,0,
+2020,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,0,0,
+2020,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2020,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2020,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2020,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2020,7 Interdisziplinäre und Andere,Ausland,UZH,4,4,100.0
+2020,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2020,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2020,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2020,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2020,99.99 Fach nicht zuteilbar,Ausland,UZH,6,13,46.2
+2020,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2020,8.1 Zentrale Verwaltung,Ausland,UZH,112,572,19.6
+2020,8.2 Zentrale Bibliotheken,Ausland,UZH,8,57,14.0
+2020,8.3 Technische Dienste und Logistik,Ausland,UZH,118,344,34.3
+2020,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,28,117,23.9
+2021,1.1 Theologie,Ausland,UZH,65,180,36.1
+2021,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,309,773,40.0
+2021,1.3 Historische und Kulturwissenschaften,Ausland,UZH,221,580,38.1
+2021,1.4 Sozialwissenschaften,Ausland,UZH,379,950,39.9
+2021,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,90,231,39.0
+2021,2 Wirtschaftswissenschaften,Ausland,UZH,381,688,55.4
+2021,3 Recht,Ausland,UZH,104,685,15.2
+2021,4.1 Exakte Wissenschaften,Ausland,UZH,418,639,65.4
+2021,4.2 Naturwissenschaften,Ausland,UZH,849,1521,55.8
+2021,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,38,88,43.2
+2021,5.1 Humanmedizin,Ausland,UZH,1996,4647,43.0
+2021,5.2 Zahnmedizin,Ausland,UZH,130,442,29.4
+2021,5.3 Veterinärmedizin,Ausland,UZH,371,852,43.5
+2021,5.4 Pharmazie,Ausland,UZH,0,0,
+2021,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,0,0,
+2021,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2021,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2021,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2021,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2021,7 Interdisziplinäre und Andere,Ausland,UZH,3,5,60.0
+2021,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2021,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2021,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2021,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2021,99.99 Fach nicht zuteilbar,Ausland,UZH,10,16,62.5
+2021,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2021,8.1 Zentrale Verwaltung,Ausland,UZH,118,612,19.3
+2021,8.2 Zentrale Bibliotheken,Ausland,UZH,6,56,10.7
+2021,8.3 Technische Dienste und Logistik,Ausland,UZH,115,356,32.3
+2021,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,27,126,21.4
+2022,1.1 Theologie,Ausland,UZH,71,191,37.2
+2022,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,295,712,41.4
+2022,1.3 Historische und Kulturwissenschaften,Ausland,UZH,211,555,38.0
+2022,1.4 Sozialwissenschaften,Ausland,UZH,351,875,40.1
+2022,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,117,330,35.5
+2022,2 Wirtschaftswissenschaften,Ausland,UZH,380,709,53.6
+2022,3 Recht,Ausland,UZH,131,778,16.8
+2022,4.1 Exakte Wissenschaften,Ausland,UZH,441,666,66.2
+2022,4.2 Naturwissenschaften,Ausland,UZH,859,1573,54.6
+2022,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,53,153,34.6
+2022,5.1 Humanmedizin,Ausland,UZH,1882,4526,41.6
+2022,5.2 Zahnmedizin,Ausland,UZH,115,425,27.1
+2022,5.3 Veterinärmedizin,Ausland,UZH,351,879,39.9
+2022,5.4 Pharmazie,Ausland,UZH,0,0,
+2022,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,0,0,
+2022,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2022,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2022,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2022,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2022,7 Interdisziplinäre und Andere,Ausland,UZH,2,4,50.0
+2022,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2022,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2022,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2022,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2022,99.99 Fach nicht zuteilbar,Ausland,UZH,8,19,42.1
+2022,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2022,8.1 Zentrale Verwaltung,Ausland,UZH,156,760,20.5
+2022,8.2 Zentrale Bibliotheken,Ausland,UZH,0,0,
+2022,8.3 Technische Dienste und Logistik,Ausland,UZH,116,355,32.7
+2022,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,27,125,21.6
+2023,1.1 Theologie,Ausland,UZH,62,163,38.0
+2023,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,295,698,42.3
+2023,1.3 Historische und Kulturwissenschaften,Ausland,UZH,196,529,37.1
+2023,1.4 Sozialwissenschaften,Ausland,UZH,312,814,38.3
+2023,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,69,205,33.7
+2023,2 Wirtschaftswissenschaften,Ausland,UZH,351,651,53.9
+2023,3 Recht,Ausland,UZH,128,698,18.3
+2023,4.1 Exakte Wissenschaften,Ausland,UZH,410,622,65.9
+2023,4.2 Naturwissenschaften,Ausland,UZH,868,1558,55.7
+2023,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,34,79,43.0
+2023,5.1 Humanmedizin,Ausland,UZH,2083,4894,42.6
+2023,5.2 Zahnmedizin,Ausland,UZH,129,404,31.9
+2023,5.3 Veterinärmedizin,Ausland,UZH,364,867,42.0
+2023,5.4 Pharmazie,Ausland,UZH,0,0,
+2023,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,0,0,
+2023,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2023,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2023,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2023,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2023,7 Interdisziplinäre und Andere,Ausland,UZH,3,6,50.0
+2023,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2023,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2023,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2023,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2023,99.99 Fach nicht zuteilbar,Ausland,UZH,8,17,47.1
+2023,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2023,8.1 Zentrale Verwaltung,Ausland,UZH,196,885,22.1
+2023,8.2 Zentrale Bibliotheken,Ausland,UZH,0,0,
+2023,8.3 Technische Dienste und Logistik,Ausland,UZH,117,353,33.1
+2023,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,24,114,21.1
+2024,1.1 Theologie,Ausland,UZH,67,179,37.4
+2024,1.2 Sprach- und Literaturwissenschaften,Ausland,UZH,310,733,42.3
+2024,1.3 Historische und Kulturwissenschaften,Ausland,UZH,215,549,39.2
+2024,1.4 Sozialwissenschaften,Ausland,UZH,350,896,39.1
+2024,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,UZH,77,212,36.3
+2024,2 Wirtschaftswissenschaften,Ausland,UZH,351,667,52.6
+2024,3 Recht,Ausland,UZH,126,695,18.1
+2024,4.1 Exakte Wissenschaften,Ausland,UZH,427,632,67.6
+2024,4.2 Naturwissenschaften,Ausland,UZH,880,1576,55.8
+2024,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,UZH,28,79,35.4
+2024,5.1 Humanmedizin,Ausland,UZH,2307,5394,42.8
+2024,5.2 Zahnmedizin,Ausland,UZH,140,434,32.3
+2024,5.3 Veterinärmedizin,Ausland,UZH,375,882,42.5
+2024,5.4 Pharmazie,Ausland,UZH,0,0,
+2024,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,UZH,0,0,
+2024,6.1 Bauwesen und Geodäsie,Ausland,UZH,0,0,
+2024,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,UZH,0,0,
+2024,6.3 Agrar- und Forstwissenschaften,Ausland,UZH,0,0,
+2024,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,UZH,0,0,
+2024,7 Interdisziplinäre und Andere,Ausland,UZH,3,6,50.0
+2024,8.5 Zentrale Verwaltung (bis 2001),Ausland,UZH,0,0,
+2024,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,UZH,0,0,
+2024,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,UZH,0,0,
+2024,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,UZH,0,0,
+2024,99.99 Fach nicht zuteilbar,Ausland,UZH,6,22,27.3
+2024,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,UZH,0,0,
+2024,8.1 Zentrale Verwaltung,Ausland,UZH,236,974,24.2
+2024,8.2 Zentrale Bibliotheken,Ausland,UZH,0,0,
+2024,8.3 Technische Dienste und Logistik,Ausland,UZH,124,378,32.8
+2024,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,UZH,23,100,23.0
+2012,1.1 Theologie,Ausland,ETHZ,0,0,
+2012,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,6,16,37.5
+2012,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,27,69,39.1
+2012,1.4 Sozialwissenschaften,Ausland,ETHZ,95,159,59.7
+2012,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,40,95,42.1
+2012,2 Wirtschaftswissenschaften,Ausland,ETHZ,62,101,61.4
+2012,3 Recht,Ausland,ETHZ,11,19,57.9
+2012,4.1 Exakte Wissenschaften,Ausland,ETHZ,808,1366,59.2
+2012,4.2 Naturwissenschaften,Ausland,ETHZ,1072,1807,59.3
+2012,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,321,668,48.1
+2012,5.1 Humanmedizin,Ausland,ETHZ,0,0,
+2012,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2012,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2012,5.4 Pharmazie,Ausland,ETHZ,99,181,54.7
+2012,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2012,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,708,1530,46.3
+2012,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1305,2278,57.3
+2012,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,214,514,41.6
+2012,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,320,501,63.9
+2012,7 Interdisziplinäre und Andere,Ausland,ETHZ,19,90,21.1
+2012,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2012,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2012,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2012,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2012,99.99 Fach nicht zuteilbar,Ausland,ETHZ,8,14,57.1
+2012,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2012,8.1 Zentrale Verwaltung,Ausland,ETHZ,94,560,16.8
+2012,8.2 Zentrale Bibliotheken,Ausland,ETHZ,58,317,18.3
+2012,8.3 Technische Dienste und Logistik,Ausland,ETHZ,78,368,21.2
+2012,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,11,76,14.5
+2013,1.1 Theologie,Ausland,ETHZ,0,0,
+2013,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,5,16,31.2
+2013,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,26,71,36.6
+2013,1.4 Sozialwissenschaften,Ausland,ETHZ,90,150,60.0
+2013,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,50,114,43.9
+2013,2 Wirtschaftswissenschaften,Ausland,ETHZ,58,101,57.4
+2013,3 Recht,Ausland,ETHZ,14,27,51.9
+2013,4.1 Exakte Wissenschaften,Ausland,ETHZ,835,1406,59.4
+2013,4.2 Naturwissenschaften,Ausland,ETHZ,1124,1836,61.2
+2013,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,387,768,50.4
+2013,5.1 Humanmedizin,Ausland,ETHZ,0,0,
+2013,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2013,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2013,5.4 Pharmazie,Ausland,ETHZ,91,164,55.5
+2013,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2013,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,726,1523,47.7
+2013,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1365,2309,59.1
+2013,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,243,499,48.7
+2013,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,360,555,64.9
+2013,7 Interdisziplinäre und Andere,Ausland,ETHZ,17,57,29.8
+2013,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2013,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2013,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2013,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2013,99.99 Fach nicht zuteilbar,Ausland,ETHZ,8,23,34.8
+2013,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2013,8.1 Zentrale Verwaltung,Ausland,ETHZ,113,592,19.1
+2013,8.2 Zentrale Bibliotheken,Ausland,ETHZ,55,335,16.4
+2013,8.3 Technische Dienste und Logistik,Ausland,ETHZ,78,372,21.0
+2013,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,15,81,18.5
+2014,1.1 Theologie,Ausland,ETHZ,0,0,
+2014,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,7,18,38.9
+2014,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,24,72,33.3
+2014,1.4 Sozialwissenschaften,Ausland,ETHZ,112,186,60.2
+2014,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,62,143,43.4
+2014,2 Wirtschaftswissenschaften,Ausland,ETHZ,60,110,54.5
+2014,3 Recht,Ausland,ETHZ,19,29,65.5
+2014,4.1 Exakte Wissenschaften,Ausland,ETHZ,834,1391,60.0
+2014,4.2 Naturwissenschaften,Ausland,ETHZ,1159,1873,61.9
+2014,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,422,803,52.6
+2014,5.1 Humanmedizin,Ausland,ETHZ,0,0,
+2014,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2014,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2014,5.4 Pharmazie,Ausland,ETHZ,97,187,51.9
+2014,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2014,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,741,1544,48.0
+2014,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1402,2394,58.6
+2014,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,262,585,44.8
+2014,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,391,589,66.4
+2014,7 Interdisziplinäre und Andere,Ausland,ETHZ,7,53,13.2
+2014,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2014,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2014,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2014,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2014,99.99 Fach nicht zuteilbar,Ausland,ETHZ,11,26,42.3
+2014,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2014,8.1 Zentrale Verwaltung,Ausland,ETHZ,128,637,20.1
+2014,8.2 Zentrale Bibliotheken,Ausland,ETHZ,59,330,17.9
+2014,8.3 Technische Dienste und Logistik,Ausland,ETHZ,80,389,20.6
+2014,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,15,78,19.2
+2015,1.1 Theologie,Ausland,ETHZ,0,0,
+2015,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,5,14,35.7
+2015,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,17,67,25.4
+2015,1.4 Sozialwissenschaften,Ausland,ETHZ,112,174,64.4
+2015,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,47,96,49.0
+2015,2 Wirtschaftswissenschaften,Ausland,ETHZ,66,116,56.9
+2015,3 Recht,Ausland,ETHZ,10,19,52.6
+2015,4.1 Exakte Wissenschaften,Ausland,ETHZ,876,1448,60.5
+2015,4.2 Naturwissenschaften,Ausland,ETHZ,1135,1845,61.5
+2015,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,471,899,52.4
+2015,5.1 Humanmedizin,Ausland,ETHZ,0,0,
+2015,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2015,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2015,5.4 Pharmazie,Ausland,ETHZ,98,176,55.7
+2015,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2015,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,727,1580,46.0
+2015,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1428,2442,58.5
+2015,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,267,555,48.1
+2015,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,427,655,65.2
+2015,7 Interdisziplinäre und Andere,Ausland,ETHZ,18,46,39.1
+2015,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2015,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2015,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2015,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2015,99.99 Fach nicht zuteilbar,Ausland,ETHZ,10,18,55.6
+2015,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2015,8.1 Zentrale Verwaltung,Ausland,ETHZ,128,665,19.2
+2015,8.2 Zentrale Bibliotheken,Ausland,ETHZ,57,340,16.8
+2015,8.3 Technische Dienste und Logistik,Ausland,ETHZ,85,410,20.7
+2015,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,12,84,14.3
+2016,1.1 Theologie,Ausland,ETHZ,0,0,
+2016,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,4,14,28.6
+2016,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,16,64,25.0
+2016,1.4 Sozialwissenschaften,Ausland,ETHZ,118,180,65.6
+2016,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,52,108,48.1
+2016,2 Wirtschaftswissenschaften,Ausland,ETHZ,62,122,50.8
+2016,3 Recht,Ausland,ETHZ,5,18,27.8
+2016,4.1 Exakte Wissenschaften,Ausland,ETHZ,858,1426,60.2
+2016,4.2 Naturwissenschaften,Ausland,ETHZ,1114,1833,60.8
+2016,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,472,893,52.9
+2016,5.1 Humanmedizin,Ausland,ETHZ,0,0,
+2016,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2016,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2016,5.4 Pharmazie,Ausland,ETHZ,88,166,53.0
+2016,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2016,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,735,1557,47.2
+2016,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1474,2515,58.6
+2016,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,261,553,47.2
+2016,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,434,682,63.6
+2016,7 Interdisziplinäre und Andere,Ausland,ETHZ,18,50,36.0
+2016,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2016,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2016,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2016,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2016,99.99 Fach nicht zuteilbar,Ausland,ETHZ,8,15,53.3
+2016,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2016,8.1 Zentrale Verwaltung,Ausland,ETHZ,132,698,18.9
+2016,8.2 Zentrale Bibliotheken,Ausland,ETHZ,55,338,16.3
+2016,8.3 Technische Dienste und Logistik,Ausland,ETHZ,82,405,20.2
+2016,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,14,87,16.1
+2017,1.1 Theologie,Ausland,ETHZ,0,0,
+2017,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,6,14,42.9
+2017,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,19,66,28.8
+2017,1.4 Sozialwissenschaften,Ausland,ETHZ,121,194,62.4
+2017,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,68,120,56.7
+2017,2 Wirtschaftswissenschaften,Ausland,ETHZ,66,128,51.6
+2017,3 Recht,Ausland,ETHZ,6,22,27.3
+2017,4.1 Exakte Wissenschaften,Ausland,ETHZ,896,1489,60.2
+2017,4.2 Naturwissenschaften,Ausland,ETHZ,1140,1874,60.8
+2017,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,472,887,53.2
+2017,5.1 Humanmedizin,Ausland,ETHZ,0,0,
+2017,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2017,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2017,5.4 Pharmazie,Ausland,ETHZ,94,167,56.3
+2017,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2017,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,762,1533,49.7
+2017,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1511,2580,58.6
+2017,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,266,563,47.2
+2017,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,474,744,63.7
+2017,7 Interdisziplinäre und Andere,Ausland,ETHZ,25,63,39.7
+2017,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2017,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2017,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2017,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2017,99.99 Fach nicht zuteilbar,Ausland,ETHZ,13,30,43.3
+2017,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2017,8.1 Zentrale Verwaltung,Ausland,ETHZ,126,734,17.2
+2017,8.2 Zentrale Bibliotheken,Ausland,ETHZ,47,332,14.2
+2017,8.3 Technische Dienste und Logistik,Ausland,ETHZ,78,413,18.9
+2017,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,18,92,19.6
+2018,1.1 Theologie,Ausland,ETHZ,0,0,
+2018,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,4,13,30.8
+2018,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,13,57,22.8
+2018,1.4 Sozialwissenschaften,Ausland,ETHZ,102,172,59.3
+2018,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,72,123,58.5
+2018,2 Wirtschaftswissenschaften,Ausland,ETHZ,60,135,44.4
+2018,3 Recht,Ausland,ETHZ,22,42,52.4
+2018,4.1 Exakte Wissenschaften,Ausland,ETHZ,1096,1944,56.4
+2018,4.2 Naturwissenschaften,Ausland,ETHZ,1178,1917,61.5
+2018,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,499,958,52.1
+2018,5.1 Humanmedizin,Ausland,ETHZ,0,0,
+2018,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2018,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2018,5.4 Pharmazie,Ausland,ETHZ,100,171,58.5
+2018,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2018,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,797,1562,51.0
+2018,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1498,2569,58.3
+2018,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,267,568,47.0
+2018,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,515,785,65.6
+2018,7 Interdisziplinäre und Andere,Ausland,ETHZ,21,65,32.3
+2018,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2018,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2018,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2018,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2018,99.99 Fach nicht zuteilbar,Ausland,ETHZ,13,32,40.6
+2018,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2018,8.1 Zentrale Verwaltung,Ausland,ETHZ,126,784,16.1
+2018,8.2 Zentrale Bibliotheken,Ausland,ETHZ,49,342,14.3
+2018,8.3 Technische Dienste und Logistik,Ausland,ETHZ,76,411,18.5
+2018,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,26,112,23.2
+2019,1.1 Theologie,Ausland,ETHZ,0,0,
+2019,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,1,9,11.1
+2019,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,13,56,23.2
+2019,1.4 Sozialwissenschaften,Ausland,ETHZ,116,194,59.8
+2019,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,71,142,50.0
+2019,2 Wirtschaftswissenschaften,Ausland,ETHZ,58,141,41.1
+2019,3 Recht,Ausland,ETHZ,31,56,55.4
+2019,4.1 Exakte Wissenschaften,Ausland,ETHZ,1047,1714,61.1
+2019,4.2 Naturwissenschaften,Ausland,ETHZ,1140,1901,60.0
+2019,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,522,987,52.9
+2019,5.1 Humanmedizin,Ausland,ETHZ,1,7,14.3
+2019,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2019,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2019,5.4 Pharmazie,Ausland,ETHZ,96,160,60.0
+2019,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2019,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,852,1619,52.6
+2019,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1489,2567,58.0
+2019,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,278,597,46.6
+2019,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,546,846,64.5
+2019,7 Interdisziplinäre und Andere,Ausland,ETHZ,24,72,33.3
+2019,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2019,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2019,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2019,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2019,99.99 Fach nicht zuteilbar,Ausland,ETHZ,9,16,56.2
+2019,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2019,8.1 Zentrale Verwaltung,Ausland,ETHZ,149,833,17.9
+2019,8.2 Zentrale Bibliotheken,Ausland,ETHZ,53,341,15.5
+2019,8.3 Technische Dienste und Logistik,Ausland,ETHZ,71,414,17.1
+2019,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,26,117,22.2
+2020,1.1 Theologie,Ausland,ETHZ,0,0,
+2020,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,2,10,20.0
+2020,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,11,53,20.8
+2020,1.4 Sozialwissenschaften,Ausland,ETHZ,125,198,63.1
+2020,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,62,123,50.4
+2020,2 Wirtschaftswissenschaften,Ausland,ETHZ,57,133,42.9
+2020,3 Recht,Ausland,ETHZ,26,48,54.2
+2020,4.1 Exakte Wissenschaften,Ausland,ETHZ,1174,1953,60.1
+2020,4.2 Naturwissenschaften,Ausland,ETHZ,1153,1951,59.1
+2020,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,579,1057,54.8
+2020,5.1 Humanmedizin,Ausland,ETHZ,2,17,11.8
+2020,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2020,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2020,5.4 Pharmazie,Ausland,ETHZ,88,147,59.9
+2020,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2020,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,886,1677,52.8
+2020,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1605,2665,60.2
+2020,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,277,575,48.2
+2020,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,563,880,64.0
+2020,7 Interdisziplinäre und Andere,Ausland,ETHZ,23,76,30.3
+2020,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2020,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2020,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2020,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2020,99.99 Fach nicht zuteilbar,Ausland,ETHZ,1,3,33.3
+2020,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2020,8.1 Zentrale Verwaltung,Ausland,ETHZ,171,878,19.5
+2020,8.2 Zentrale Bibliotheken,Ausland,ETHZ,53,329,16.1
+2020,8.3 Technische Dienste und Logistik,Ausland,ETHZ,68,431,15.8
+2020,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,29,124,23.4
+2021,1.1 Theologie,Ausland,ETHZ,0,0,
+2021,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,3,11,27.3
+2021,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,13,51,25.5
+2021,1.4 Sozialwissenschaften,Ausland,ETHZ,128,194,66.0
+2021,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,70,135,51.9
+2021,2 Wirtschaftswissenschaften,Ausland,ETHZ,60,133,45.1
+2021,3 Recht,Ausland,ETHZ,32,44,72.7
+2021,4.1 Exakte Wissenschaften,Ausland,ETHZ,1360,2311,58.8
+2021,4.2 Naturwissenschaften,Ausland,ETHZ,1197,1983,60.4
+2021,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,603,1070,56.4
+2021,5.1 Humanmedizin,Ausland,ETHZ,9,43,20.9
+2021,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2021,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2021,5.4 Pharmazie,Ausland,ETHZ,79,141,56.0
+2021,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2021,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,921,1751,52.6
+2021,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1669,2792,59.8
+2021,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,286,585,48.9
+2021,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,587,933,62.9
+2021,7 Interdisziplinäre und Andere,Ausland,ETHZ,26,79,32.9
+2021,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2021,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2021,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2021,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2021,99.99 Fach nicht zuteilbar,Ausland,ETHZ,5,9,55.6
+2021,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2021,8.1 Zentrale Verwaltung,Ausland,ETHZ,187,941,19.9
+2021,8.2 Zentrale Bibliotheken,Ausland,ETHZ,55,328,16.8
+2021,8.3 Technische Dienste und Logistik,Ausland,ETHZ,61,415,14.7
+2021,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,35,143,24.5
+2022,1.1 Theologie,Ausland,ETHZ,0,0,
+2022,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,5,10,50.0
+2022,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,19,60,31.7
+2022,1.4 Sozialwissenschaften,Ausland,ETHZ,129,190,67.9
+2022,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,72,127,56.7
+2022,2 Wirtschaftswissenschaften,Ausland,ETHZ,60,131,45.8
+2022,3 Recht,Ausland,ETHZ,25,41,61.0
+2022,4.1 Exakte Wissenschaften,Ausland,ETHZ,1390,2298,60.5
+2022,4.2 Naturwissenschaften,Ausland,ETHZ,1196,1980,60.4
+2022,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,606,1079,56.2
+2022,5.1 Humanmedizin,Ausland,ETHZ,6,40,15.0
+2022,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2022,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2022,5.4 Pharmazie,Ausland,ETHZ,81,146,55.5
+2022,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2022,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,864,1696,50.9
+2022,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1686,2728,61.8
+2022,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,304,617,49.3
+2022,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,586,948,61.8
+2022,7 Interdisziplinäre und Andere,Ausland,ETHZ,21,70,30.0
+2022,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2022,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2022,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2022,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2022,99.99 Fach nicht zuteilbar,Ausland,ETHZ,5,5,100.0
+2022,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2022,8.1 Zentrale Verwaltung,Ausland,ETHZ,198,955,20.7
+2022,8.2 Zentrale Bibliotheken,Ausland,ETHZ,51,315,16.2
+2022,8.3 Technische Dienste und Logistik,Ausland,ETHZ,61,422,14.5
+2022,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,41,172,23.8
+2023,1.1 Theologie,Ausland,ETHZ,0,0,
+2023,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,7,16,43.8
+2023,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,21,60,35.0
+2023,1.4 Sozialwissenschaften,Ausland,ETHZ,117,194,60.3
+2023,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,70,127,55.1
+2023,2 Wirtschaftswissenschaften,Ausland,ETHZ,59,130,45.4
+2023,3 Recht,Ausland,ETHZ,27,49,55.1
+2023,4.1 Exakte Wissenschaften,Ausland,ETHZ,1549,2471,62.7
+2023,4.2 Naturwissenschaften,Ausland,ETHZ,1205,2009,60.0
+2023,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,607,1094,55.5
+2023,5.1 Humanmedizin,Ausland,ETHZ,6,43,14.0
+2023,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2023,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2023,5.4 Pharmazie,Ausland,ETHZ,81,143,56.6
+2023,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2023,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,892,1718,51.9
+2023,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1699,2711,62.7
+2023,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,312,615,50.7
+2023,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,594,993,59.8
+2023,7 Interdisziplinäre und Andere,Ausland,ETHZ,17,63,27.0
+2023,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2023,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2023,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2023,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2023,99.99 Fach nicht zuteilbar,Ausland,ETHZ,6,10,60.0
+2023,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2023,8.1 Zentrale Verwaltung,Ausland,ETHZ,209,1008,20.7
+2023,8.2 Zentrale Bibliotheken,Ausland,ETHZ,46,307,15.0
+2023,8.3 Technische Dienste und Logistik,Ausland,ETHZ,58,408,14.2
+2023,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,47,185,25.4
+2024,1.1 Theologie,Ausland,ETHZ,0,0,
+2024,1.2 Sprach- und Literaturwissenschaften,Ausland,ETHZ,6,15,40.0
+2024,1.3 Historische und Kulturwissenschaften,Ausland,ETHZ,17,52,32.7
+2024,1.4 Sozialwissenschaften,Ausland,ETHZ,128,207,61.8
+2024,1.5 Geistes- und Sozialwissenschaften übergreifend/übrige,Ausland,ETHZ,85,144,59.0
+2024,2 Wirtschaftswissenschaften,Ausland,ETHZ,51,124,41.1
+2024,3 Recht,Ausland,ETHZ,28,46,60.9
+2024,4.1 Exakte Wissenschaften,Ausland,ETHZ,1601,2535,63.2
+2024,4.2 Naturwissenschaften,Ausland,ETHZ,1205,2015,59.8
+2024,4.3 Exakte und Naturwissenschaften übergreifend/übrige,Ausland,ETHZ,584,1088,53.7
+2024,5.1 Humanmedizin,Ausland,ETHZ,6,41,14.6
+2024,5.2 Zahnmedizin,Ausland,ETHZ,0,0,
+2024,5.3 Veterinärmedizin,Ausland,ETHZ,0,0,
+2024,5.4 Pharmazie,Ausland,ETHZ,81,136,59.6
+2024,5.5 Medizin und Pharmazie übergreifend/übrige,Ausland,ETHZ,0,0,
+2024,6.1 Bauwesen und Geodäsie,Ausland,ETHZ,845,1712,49.4
+2024,6.2 Maschinen- und Elektroingenieurwissenschaften,Ausland,ETHZ,1646,2647,62.2
+2024,6.3 Agrar- und Forstwissenschaften,Ausland,ETHZ,308,597,51.6
+2024,6.4 Technische Wissenschaften übergreifend/übrige,Ausland,ETHZ,631,1021,61.8
+2024,7 Interdisziplinäre und Andere,Ausland,ETHZ,18,68,26.5
+2024,8.5 Zentrale Verwaltung (bis 2001),Ausland,ETHZ,0,0,
+2024,8.6 Zentrale Logistik für Lehre und Forschung (bis 2001),Ausland,ETHZ,0,0,
+2024,8.7 Dienstleistungen für die Hochschulangehör. (bis 2001),Ausland,ETHZ,0,0,
+2024,8.8 Dienstleistungen für die Öffentlichkeit (bis 2001),Ausland,ETHZ,0,0,
+2024,99.99 Fach nicht zuteilbar,Ausland,ETHZ,8,16,50.0
+2024,8.9 Übrige nicht zuteilbare Aufwände (bis 2001),Ausland,ETHZ,0,0,
+2024,8.1 Zentrale Verwaltung,Ausland,ETHZ,224,1046,21.4
+2024,8.2 Zentrale Bibliotheken,Ausland,ETHZ,45,312,14.4
+2024,8.3 Technische Dienste und Logistik,Ausland,ETHZ,58,418,13.9
+2024,8.4 Dienstleistungen für Mitarbeitende und Studierende,Ausland,ETHZ,31,152,20.4

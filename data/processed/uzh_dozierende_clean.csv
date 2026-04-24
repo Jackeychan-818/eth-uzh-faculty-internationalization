@@ -1,0 +1,483 @@
+Year,Faculty,Rank,Total,Frauen_%,Auslaendische_%
+2024,Gesamt Universität,Professuren,742.0,30.3,47.7
+2024,Gesamt Universität,Titularprofessuren,773.0,20.6,20.1
+2024,Gesamt Universität,Privatdozierende,1194.0,29.7,42.8
+2024,Theologische Fakultät,Titularprofessuren,9.0,11.1,22.2
+2024,Theologische Fakultät,Privatdozierende,25.0,20.0,56.0
+2024,Rechtswissenschaftliche Fakultät,Titularprofessuren,46.0,17.4,6.5
+2024,Rechtswissenschaftliche Fakultät,Privatdozierende,36.0,41.7,19.4
+2024,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,15.0,13.3,6.7
+2024,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,38.0,23.7,47.4
+2024,Medizinische Fakultät,Titularprofessuren,516.0,18.2,22.7
+2024,Medizinische Fakultät,Privatdozierende,780.0,26.4,41.5
+2024,Theologische Fakultät,Professuren,18.0,,50.0
+2024,Rechtswissenschaftliche Fakultät,Professuren,52.0,,28.8
+2024,Wirtschaftswissenschaftliche Fakultät,Professuren,95.0,,60.0
+2024,Medizinische Fakultät,Professuren,209.0,,40.2
+2024,Vetsuisse Fakultät,Professuren,38.0,,36.8
+2024,Philosophische Fakultät,Professuren,184.0,,50.5
+2024,Mathematisch-naturwissenschaftliche Fakultät,Professuren,132.0,,56.1
+2023,Gesamt Universität,Professuren,738.0,29.3,48.5
+2023,Gesamt Universität,Titularprofessuren,767.0,20.1,21.4
+2023,Gesamt Universität,Privatdozierende,1133.0,30.1,42.7
+2023,Theologische Fakultät,Titularprofessuren,9.0,11.1,22.2
+2023,Theologische Fakultät,Privatdozierende,21.0,23.8,52.4
+2023,Rechtswissenschaftliche Fakultät,Titularprofessuren,42.0,16.7,4.8
+2023,Rechtswissenschaftliche Fakultät,Privatdozierende,37.0,40.5,18.9
+2023,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,19.0,10.5,15.8
+2023,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,32.0,28.1,46.9
+2023,Medizinische Fakultät,Titularprofessuren,513.0,17.7,24.8
+2023,Medizinische Fakultät,Privatdozierende,746.0,26.9,41.8
+2023,Theologische Fakultät,Professuren,17.0,,47.1
+2023,Rechtswissenschaftliche Fakultät,Professuren,56.0,,26.8
+2023,Wirtschaftswissenschaftliche Fakultät,Professuren,92.0,,62.0
+2023,Medizinische Fakultät,Professuren,206.0,,42.2
+2023,Vetsuisse Fakultät,Professuren,38.0,,36.8
+2023,Philosophische Fakultät,Professuren,186.0,,51.6
+2023,Mathematisch-naturwissenschaftliche Fakultät,Professuren,128.0,,56.3
+2022,Gesamt Universität,Professuren,734.0,28.7,48.8
+2022,Gesamt Universität,Titularprofessuren,734.0,20.3,21.0
+2022,Gesamt Universität,Privatdozierende,1043.0,29.2,42.0
+2022,Theologische Fakultät,Titularprofessuren,10.0,10.0,30.0
+2022,Theologische Fakultät,Privatdozierende,19.0,26.3,47.4
+2022,Rechtswissenschaftliche Fakultät,Titularprofessuren,46.0,19.6,4.3
+2022,Rechtswissenschaftliche Fakultät,Privatdozierende,29.0,41.4,17.2
+2022,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,19.0,10.5,15.8
+2022,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,32.0,28.1,46.9
+2022,Medizinische Fakultät,Titularprofessuren,474.0,17.7,23.6
+2022,Medizinische Fakultät,Privatdozierende,695.0,25.8,40.7
+2022,Theologische Fakultät,Professuren,15.0,,53.3
+2022,Rechtswissenschaftliche Fakultät,Professuren,55.0,,21.8
+2022,Wirtschaftswissenschaftliche Fakultät,Professuren,92.0,,62.0
+2022,Medizinische Fakultät,Professuren,206.0,,42.2
+2022,Vetsuisse Fakultät,Professuren,36.0,,36.1
+2022,Philosophische Fakultät,Professuren,186.0,,51.3
+2022,Mathematisch-naturwissenschaftliche Fakultät,Professuren,128.0,,56.3
+2021,Theologische Fakultät,Titularprofessuren,10.0,10.0,30.0
+2021,Theologische Fakultät,Privatdozierende,18.0,22.2,55.6
+2021,Rechtswissenschaftliche Fakultät,Titularprofessuren,44.0,20.5,4.5
+2021,Rechtswissenschaftliche Fakultät,Privatdozierende,31.0,35.5,16.1
+2021,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,20.0,10.0,20.0
+2021,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,32.0,28.1,46.9
+2021,Medizinische Fakultät,Titularprofessuren,437.0,17.2,22.7
+2021,Medizinische Fakultät,Privatdozierende,680.0,24.4,40.0
+2021,Vetsuisse Fakultät,Titularprofessuren,19.0,31.6,36.8
+2021,Vetsuisse Fakultät,Privatdozierende,34.0,50.0,58.8
+2021,Philosophische Fakultät,Titularprofessuren,105.0,36.2,11.4
+2021,Philosophische Fakultät,Privatdozierende,124.0,38.7,45.2
+2021,Mathematisch-naturwissenschaftliche Fakultät,Titularprofessuren,55.0,12.7,23.6
+2021,Mathematisch-naturwissenschaftliche Fakultät,Privatdozierende,99.0,30.3,51.5
+2021,Zentrale Dienste der Universität,Professuren,5.0,60.0,20.0
+2021,Zentrale Dienste der Universität,Titularprofessuren,2.0,50.0,
+2021,Zentrale Dienste der Universität,Privatdozierende,1.0,,
+2021,Schwerpunkt Forschung und Lehre,Professuren,8.0,50.0,87.5
+2021,Schwerpunkt Forschung und Lehre,Titularprofessuren,,,
+2021,Schwerpunkt Forschung und Lehre,Privatdozierende,,,
+2021,Gesamt Universität,Professuren,735.0,27.6,53.1
+2021,Gesamt Universität,Titularprofessuren,692.0,20.1,20.2
+2021,Gesamt Universität,Privatdozierende,28.0,42.1,
+2021,Theologische Fakultät,Professuren,15.0,,53.3
+2021,Rechtswissenschaftliche Fakultät,Professuren,53.0,,37.7
+2021,Wirtschaftswissenschaftliche Fakultät,Professuren,91.0,,70.3
+2021,Medizinische Fakultät,Professuren,207.0,,47.8
+2021,Vetsuisse Fakultät,Professuren,39.0,,41.0
+2021,Philosophische Fakultät,Professuren,195.0,,53.3
+2021,Mathematisch-naturwissenschaftliche Fakultät,Professuren,123.0,,58.5
+2020,Theologische Fakultät,Titularprofessuren,11.0,9.1,27.3
+2020,Theologische Fakultät,Privatdozierende,15.0,20.0,53.3
+2020,Theologische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,34.0,44.1,35.3
+2020,Rechtswissenschaftliche Fakultät,Titularprofessuren,40.0,17.5,2.5
+2020,Rechtswissenschaftliche Fakultät,Privatdozierende,34.0,35.3,17.6
+2020,Rechtswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,84.0,31.0,14.3
+2020,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,21.0,9.5,23.8
+2020,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,31.0,25.8,45.2
+2020,Wirtschaftswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,168.0,25.6,55.4
+2020,Medizinische Fakultät,Titularprofessuren,399.0,15.3,20.3
+2020,Medizinische Fakultät,Privatdozierende,627.0,24.4,39.7
+2020,Medizinische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,41.6,37.0,
+2020,Vetsuisse Fakultät,Titularprofessuren,20.0,30.0,40.0
+2020,Vetsuisse Fakultät,Privatdozierende,34.0,50.0,61.8
+2020,Vetsuisse Fakultät,Lehrbeauftragte / Externe Lehrpersonen,56.0,64.3,37.5
+2020,Philosophische Fakultät,Titularprofessuren,107.0,35.5,14.0
+2020,Philosophische Fakultät,Privatdozierende,114.0,38.6,43.9
+2020,Philosophische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,778.0,57.5,46.5
+2020,Mathematisch-naturwissenschaftliche Fakultät,Titularprofessuren,52.0,13.5,21.2
+2020,Mathematisch-naturwissenschaftliche Fakultät,Privatdozierende,95.0,31.6,51.6
+2020,Mathematisch-naturwissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,279.0,34.5,54.0
+2020,Zentrale Dienste der Universität,Professuren,,,
+2020,Zentrale Dienste der Universität,Titularprofessuren,2.0,50.0,
+2020,Zentrale Dienste der Universität,Privatdozierende,1.0,,
+2020,Zentrale Dienste der Universität,Lehrbeauftragte / Externe Lehrpersonen,50.0,74.0,28.0
+2020,Schwerpunkt Forschung und Lehre,Professuren,10.0,50.0,90.0
+2020,Schwerpunkt Forschung und Lehre,Titularprofessuren,,,
+2020,Schwerpunkt Forschung und Lehre,Privatdozierende,,,
+2020,Schwerpunkt Forschung und Lehre,Lehrbeauftragte / Externe Lehrpersonen,4.0,,100.0
+2020,Gesamt Universität,Professuren,718.0,25.1,54.5
+2020,Gesamt Universität,Titularprofessuren,651.0,18.9,19.0
+2020,Gesamt Universität,Privatdozierende,951.0,28.1,41.7
+2020,Gesamt Universität,Lehrbeauftragte / Externe Lehrpersonen,45.0,41.6,
+2020,Theologische Fakultät,Professuren,15.0,,53.3
+2020,Rechtswissenschaftliche Fakultät,Professuren,55.0,,38.2
+2020,Wirtschaftswissenschaftliche Fakultät,Professuren,95.0,,72.6
+2020,Medizinische Fakultät,Professuren,203.0,,47.3
+2020,Vetsuisse Fakultät,Professuren,38.0,,42.1
+2020,Philosophische Fakultät,Professuren,186.0,,53.8
+2020,Mathematisch-naturwissenschaftliche Fakultät,Professuren,116.0,,62.1
+2019,Theologische Fakultät,Professuren,17.0,17.6,52.9
+2019,Theologische Fakultät,Titularprofessuren,11.0,18.2,27.3
+2019,Theologische Fakultät,Privatdozierende,16.0,18.8,56.3
+2019,Theologische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,34.0,50.0,32.4
+2019,Rechtswissenschaftliche Fakultät,Professuren,54.0,25.9,37.0
+2019,Rechtswissenschaftliche Fakultät,Titularprofessuren,40.0,17.5,2.5
+2019,Rechtswissenschaftliche Fakultät,Privatdozierende,31.0,35.5,19.4
+2019,Rechtswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,80.0,31.3,15.0
+2019,Wirtschaftswissenschaftliche Fakultät,Professuren,89.0,14.6,71.9
+2019,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,21.0,9.5,23.8
+2019,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,31.0,25.8,45.2
+2019,Wirtschaftswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,184.0,22.8,56.0
+2019,Medizinische Fakultät,Professuren,206.0,14.1,49.5
+2019,Medizinische Fakultät,Titularprofessuren,387.0,16.3,19.6
+2019,Medizinische Fakultät,Privatdozierende,590.0,24.4,40.2
+2019,Medizinische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,40.8,35.1,
+2019,Vetsuisse Fakultät,Professuren,37.0,32.4,43.2
+2019,Vetsuisse Fakultät,Titularprofessuren,21.0,28.6,38.1
+2019,Vetsuisse Fakultät,Privatdozierende,30.0,46.7,60.0
+2019,Vetsuisse Fakultät,Lehrbeauftragte / Externe Lehrpersonen,53.0,64.2,37.7
+2019,Philosophische Fakultät,Professuren,185.0,38.4,54.1
+2019,Philosophische Fakultät,Titularprofessuren,102.0,33.3,14.7
+2019,Philosophische Fakultät,Privatdozierende,113.0,40.7,42.5
+2019,Philosophische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,763.0,57.4,45.1
+2019,Mathematisch-naturwissenschaftliche Fakultät,Professuren,113.0,19.5,61.1
+2019,Mathematisch-naturwissenschaftliche Fakultät,Titularprofessuren,52.0,13.5,23.1
+2019,Mathematisch-naturwissenschaftliche Fakultät,Privatdozierende,89.0,29.2,51.7
+2019,Mathematisch-naturwissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,274.0,35.0,56.6
+2019,Zentrale Dienste der Universität,Professuren,,,
+2019,Zentrale Dienste der Universität,Titularprofessuren,,,
+2019,Zentrale Dienste der Universität,Privatdozierende,1.0,,
+2019,Zentrale Dienste der Universität,Lehrbeauftragte / Externe Lehrpersonen,54.0,74.1,35.2
+2019,Schwerpunkt Forschung und Lehre,Professuren,12.0,50.0,83.3
+2019,Schwerpunkt Forschung und Lehre,Titularprofessuren,,,
+2019,Schwerpunkt Forschung und Lehre,Privatdozierende,,,
+2019,Schwerpunkt Forschung und Lehre,Lehrbeauftragte / Externe Lehrpersonen,2.0,50.0,50.0
+2019,Gesamt Universität,Professuren,713.0,23.8,54.5
+2019,Gesamt Universität,Titularprofessuren,634.0,19.2,18.9
+2019,Gesamt Universität,Privatdozierende,901.0,28.0,41.9
+2019,Gesamt Universität,Lehrbeauftragte / Externe Lehrpersonen,44.4,40.6,
+2018,Theologische Fakultät,Professuren,15.0,20.0,40.0
+2018,Theologische Fakultät,Titularprofessuren,9.0,22.2,22.2
+2018,Theologische Fakultät,Privatdozierende,15.0,20.0,46.7
+2018,Theologische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,36.0,44.4,50.0
+2018,Rechtswissenschaftliche Fakultät,Professuren,57.0,28.1,33.3
+2018,Rechtswissenschaftliche Fakultät,Titularprofessuren,38.0,15.8,5.3
+2018,Rechtswissenschaftliche Fakultät,Privatdozierende,29.0,27.6,24.1
+2018,Rechtswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,78.0,32.1,19.2
+2018,Wirtschaftswissenschaftliche Fakultät,Professuren,89.0,14.6,76.4
+2018,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,19.0,10.5,15.8
+2018,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,28.0,32.1,46.4
+2018,Wirtschaftswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,175.0,21.7,53.7
+2018,Medizinische Fakultät,Professuren,193.0,14.0,52.3
+2018,Medizinische Fakultät,Titularprofessuren,355.0,15.2,19.4
+2018,Medizinische Fakultät,Privatdozierende,509.0,23.8,39.1
+2018,Medizinische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,38.9,33.9,
+2018,Vetsuisse Fakultät,Professuren,38.0,28.9,39.5
+2018,Vetsuisse Fakultät,Titularprofessuren,20.0,30.0,35.0
+2018,Vetsuisse Fakultät,Privatdozierende,27.0,48.1,66.7
+2018,Vetsuisse Fakultät,Lehrbeauftragte / Externe Lehrpersonen,64.0,60.9,45.3
+2018,Philosophische Fakultät,Professuren,181.0,40.9,58.0
+2018,Philosophische Fakultät,Titularprofessuren,102.0,33.3,15.7
+2018,Philosophische Fakultät,Privatdozierende,110.0,41.8,40.9
+2018,Philosophische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,766.0,57.6,43.1
+2018,Mathematisch-naturwissenschaftliche Fakultät,Professuren,117.0,19.7,62.4
+2018,Mathematisch-naturwissenschaftliche Fakultät,Titularprofessuren,59.0,11.9,20.3
+2018,Mathematisch-naturwissenschaftliche Fakultät,Privatdozierende,84.0,22.6,53.6
+2018,Mathematisch-naturwissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,332.0,35.2,54.5
+2018,Zentrale Dienste der Universität,Professuren,,,
+2018,Zentrale Dienste der Universität,Titularprofessuren,,,
+2018,Zentrale Dienste der Universität,Privatdozierende,,,
+2018,Zentrale Dienste der Universität,Lehrbeauftragte / Externe Lehrpersonen,44.0,75.0,29.5
+2018,Gesamt Universität,Professuren,690.0,24.3,56.1
+2018,Gesamt Universität,Titularprofessuren,602.0,18.4,18.4
+2018,Gesamt Universität,Privatdozierende,802.0,27.3,41.6
+2018,Gesamt Universität,Lehrbeauftragte / Externe Lehrpersonen,43.4,39.9,
+2017,Theologische Fakultät,Professuren,15.0,20.0,40.0
+2017,Theologische Fakultät,Titularprofessuren,7.0,14.3,14.3
+2017,Theologische Fakultät,Privatdozierende,16.0,18.8,43.8
+2017,Theologische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,40.0,52.5,45.0
+2017,Rechtswissenschaftliche Fakultät,Professuren,55.0,30.9,32.7
+2017,Rechtswissenschaftliche Fakultät,Titularprofessuren,37.0,13.5,5.4
+2017,Rechtswissenschaftliche Fakultät,Privatdozierende,32.0,34.4,25.0
+2017,Rechtswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,95.0,28.4,25.3
+2017,Wirtschaftswissenschaftliche Fakultät,Professuren,85.0,14.1,76.5
+2017,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,18.0,11.1,22.2
+2017,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,28.0,28.6,46.4
+2017,Wirtschaftswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,158.0,19.6,50.0
+2017,Medizinische Fakultät,Professuren,194.0,14.9,51.5
+2017,Medizinische Fakultät,Titularprofessuren,364.0,15.9,19.2
+2017,Medizinische Fakultät,Privatdozierende,491.0,23.2,37.1
+2017,Medizinische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,38.2,32.5,
+2017,Vetsuisse Fakultät,Professuren,38.0,28.9,44.7
+2017,Vetsuisse Fakultät,Titularprofessuren,21.0,23.8,38.1
+2017,Vetsuisse Fakultät,Privatdozierende,27.0,50.0,65.4
+2017,Vetsuisse Fakultät,Lehrbeauftragte / Externe Lehrpersonen,63.0,58.7,42.9
+2017,Philosophische Fakultät,Professuren,173.0,39.9,58.4
+2017,Philosophische Fakultät,Titularprofessuren,95.0,33.7,10.5
+2017,Philosophische Fakultät,Privatdozierende,100.0,40.0,41.0
+2017,Philosophische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,762.0,55.9,43.8
+2017,Mathematisch-naturwissenschaftliche Fakultät,Professuren,115.0,13.9,61.7
+2017,Mathematisch-naturwissenschaftliche Fakultät,Titularprofessuren,53.0,9.4,18.9
+2017,Mathematisch-naturwissenschaftliche Fakultät,Privatdozierende,82.0,20.7,52.4
+2017,Mathematisch-naturwissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,324.0,35.2,53.4
+2017,Zentrale Dienste der Universität,Professuren,,,
+2017,Zentrale Dienste der Universität,Titularprofessuren,,,
+2017,Zentrale Dienste der Universität,Privatdozierende,,,
+2017,Zentrale Dienste der Universität,Lehrbeauftragte / Externe Lehrpersonen,43.0,74.4,30.2
+2017,Gesamt Universität,Professuren,675.0,23.3,56.0
+2017,Gesamt Universität,Titularprofessuren,595.0,18.2,17.6
+2017,Gesamt Universität,Privatdozierende,776.0,26.5,40.1
+2017,Gesamt Universität,Lehrbeauftragte / Externe Lehrpersonen,42.5,39.1,
+2016,Theologische Fakultät,Professuren,15.0,20.0,46.7
+2016,Theologische Fakultät,Titularprofessuren,8.0,12.5,25.0
+2016,Theologische Fakultät,Privatdozierende,14.0,14.3,57.1
+2016,Theologische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,37.0,43.2,37.8
+2016,Rechtswissenschaftliche Fakultät,Professuren,51.0,29.4,31.4
+2016,Rechtswissenschaftliche Fakultät,Titularprofessuren,32.0,12.5,3.1
+2016,Rechtswissenschaftliche Fakultät,Privatdozierende,27.0,33.3,25.9
+2016,Rechtswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,80.0,28.8,25.0
+2016,Wirtschaftswissenschaftliche Fakultät,Professuren,80.0,13.8,77.5
+2016,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,17.0,11.8,23.5
+2016,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,29.0,27.6,41.4
+2016,Wirtschaftswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,167.0,21.0,47.3
+2016,Medizinische Fakultät,Professuren,190.0,14.2,50.0
+2016,Medizinische Fakultät,Titularprofessuren,344.0,16.6,18.9
+2016,Medizinische Fakultät,Privatdozierende,476.0,21.2,37.4
+2016,Medizinische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,35.4,32.5,
+2016,Vetsuisse Fakultät,Professuren,39.0,28.2,41.0
+2016,Vetsuisse Fakultät,Titularprofessuren,20.0,20.0,40.0
+2016,Vetsuisse Fakultät,Privatdozierende,30.0,36.7,43.3
+2016,Vetsuisse Fakultät,Lehrbeauftragte / Externe Lehrpersonen,65.0,58.5,46.2
+2016,Philosophische Fakultät,Professuren,169.0,38.5,59.8
+2016,Philosophische Fakultät,Titularprofessuren,86.0,32.6,9.3
+2016,Philosophische Fakultät,Privatdozierende,101.0,39.6,36.6
+2016,Philosophische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,786.0,53.3,45.8
+2016,Mathematisch-naturwissenschaftliche Fakultät,Professuren,117.0,13.7,60.7
+2016,Mathematisch-naturwissenschaftliche Fakultät,Titularprofessuren,45.0,8.9,15.6
+2016,Mathematisch-naturwissenschaftliche Fakultät,Privatdozierende,74.0,18.9,54.1
+2016,Mathematisch-naturwissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,358.0,35.8,57.0
+2016,Zentrale Dienste der Universität,Professuren,0.0,0.0,0.0
+2016,Zentrale Dienste der Universität,Titularprofessuren,0.0,0.0,0.0
+2016,Zentrale Dienste der Universität,Privatdozierende,0.0,0.0,0.0
+2016,Zentrale Dienste der Universität,Lehrbeauftragte / Externe Lehrpersonen,39.0,71.8,25.6
+2016,Gesamt Universität,Professuren,661.0,22.4,55.7
+2016,Gesamt Universität,Titularprofessuren,552.0,18.1,17.2
+2016,Gesamt Universität,Privatdozierende,751.0,24.6,39.8
+2016,Gesamt Universität,Lehrbeauftragte / Externe Lehrpersonen,40.4,40.0,
+2015,Theologische Fakultät,Professuren,14.0,21.4,50.0
+2015,Theologische Fakultät,Titularprofessuren,9.0,11.1,22.2
+2015,Theologische Fakultät,Privatdozierende,12.0,25.0,50.0
+2015,Theologische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,35.0,28.6,42.9
+2015,Rechtswissenschaftliche Fakultät,Professuren,52.0,30.8,32.7
+2015,Rechtswissenschaftliche Fakultät,Titularprofessuren,28.0,14.3,3.6
+2015,Rechtswissenschaftliche Fakultät,Privatdozierende,27.0,33.3,7.4
+2015,Rechtswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,73.0,23.3,34.2
+2015,Wirtschaftswissenschaftliche Fakultät,Professuren,74.0,12.2,75.7
+2015,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,17.0,11.8,23.5
+2015,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,30.0,26.7,40.0
+2015,Wirtschaftswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,172.0,21.5,48.8
+2015,Medizinische Fakultät,Professuren,182.0,14.3,50.0
+2015,Medizinische Fakultät,Titularprofessuren,316.0,14.9,17.7
+2015,Medizinische Fakultät,Privatdozierende,462.0,19.7,37.4
+2015,Medizinische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,35.1,33.0,
+2015,Vetsuisse Fakultät,Professuren,39.0,28.2,41.0
+2015,Vetsuisse Fakultät,Titularprofessuren,19.0,15.8,47.4
+2015,Vetsuisse Fakultät,Privatdozierende,28.0,33.3,51.9
+2015,Vetsuisse Fakultät,Lehrbeauftragte / Externe Lehrpersonen,64.0,56.3,39.1
+2015,Philosophische Fakultät,Professuren,158.0,36.7,60.1
+2015,Philosophische Fakultät,Titularprofessuren,86.0,33.7,9.3
+2015,Philosophische Fakultät,Privatdozierende,91.0,44.0,33.0
+2015,Philosophische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,790.0,53.2,45.4
+2015,Mathematisch-naturwissenschaftliche Fakultät,Professuren,115.0,13.0,60.9
+2015,Mathematisch-naturwissenschaftliche Fakultät,Titularprofessuren,41.0,9.8,12.2
+2015,Mathematisch-naturwissenschaftliche Fakultät,Privatdozierende,76.0,17.1,53.9
+2015,Mathematisch-naturwissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,341.0,33.7,53.4
+2015,Zentrale Dienste der Universität,Professuren,0.0,0.0,0.0
+2015,Zentrale Dienste der Universität,Titularprofessuren,0.0,0.0,0.0
+2015,Zentrale Dienste der Universität,Privatdozierende,0.0,0.0,0.0
+2015,Zentrale Dienste der Universität,Lehrbeauftragte / Externe Lehrpersonen,39.0,69.2,30.8
+2015,Gesamt Universität,Professuren,634.0,21.8,55.5
+2015,Gesamt Universität,Titularprofessuren,516.0,17.4,16.5
+2015,Gesamt Universität,Privatdozierende,727.0,23.8,38.3
+2015,Gesamt Universität,Lehrbeauftragte / Externe Lehrpersonen,39.8,40.3,
+2014,Theologische Fakultät,Professuren,14.0,21.4,50.0
+2014,Theologische Fakultät,Titularprofessuren,7.0,14.3,14.3
+2014,Theologische Fakultät,Privatdozierende,11.0,27.3,45.5
+2014,Theologische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,29.0,34.5,51.7
+2014,Rechtswissenschaftliche Fakultät,Professuren,52.0,30.8,34.6
+2014,Rechtswissenschaftliche Fakultät,Titularprofessuren,27.0,14.8,3.7
+2014,Rechtswissenschaftliche Fakultät,Privatdozierende,23.0,34.8,8.7
+2014,Rechtswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,81.0,28.4,22.2
+2014,Wirtschaftswissenschaftliche Fakultät,Professuren,75.0,13.3,74.7
+2014,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,17.0,11.8,23.5
+2014,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,28.0,25.0,42.9
+2014,Wirtschaftswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,184.0,23.4,51.1
+2014,Medizinische Fakultät,Professuren,168.0,13.1,50.0
+2014,Medizinische Fakultät,Titularprofessuren,307.0,14.0,17.3
+2014,Medizinische Fakultät,Privatdozierende,429.0,19.1,37.8
+2014,Medizinische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,1180.0,35.8,32.2
+2014,Vetsuisse Fakultät,Professuren,34.0,23.5,38.2
+2014,Vetsuisse Fakultät,Titularprofessuren,21.0,14.3,47.6
+2014,Vetsuisse Fakultät,Privatdozierende,29.0,34.5,41.4
+2014,Vetsuisse Fakultät,Lehrbeauftragte / Externe Lehrpersonen,59.0,54.2,40.7
+2014,Philosophische Fakultät,Professuren,157.0,35.0,58.6
+2014,Philosophische Fakultät,Titularprofessuren,83.0,34.9,10.8
+2014,Philosophische Fakultät,Privatdozierende,92.0,44.6,27.2
+2014,Philosophische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,819.0,53.8,44.2
+2014,Mathematisch-naturwissenschaftliche Fakultät,Professuren,112.0,14.3,60.7
+2014,Mathematisch-naturwissenschaftliche Fakultät,Titularprofessuren,39.0,10.3,12.8
+2014,Mathematisch-naturwissenschaftliche Fakultät,Privatdozierende,75.0,16.0,53.3
+2014,Mathematisch-naturwissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,336.0,33.3,58.0
+2014,Zentrale Dienste der Universität,Professuren,0.0,0.0,0.0
+2014,Zentrale Dienste der Universität,Titularprofessuren,0.0,0.0,0.0
+2014,Zentrale Dienste der Universität,Privatdozierende,0.0,0.0,0.0
+2014,Zentrale Dienste der Universität,Lehrbeauftragte / Externe Lehrpersonen,36.0,72.2,33.3
+2014,Gesamt Universität,Professuren,612.0,21.2,55.2
+2014,Gesamt Universität,Titularprofessuren,501.0,17.2,16.6
+2014,Gesamt Universität,Privatdozierende,687.0,23.7,37.6
+2014,Gesamt Universität,Lehrbeauftragte / Externe Lehrpersonen,40.7,40.4,
+2013,Theologische Fakultät,Professuren,14.0,21.4,50.0
+2013,Theologische Fakultät,Titularprofessuren,7.0,14.3,14.3
+2013,Theologische Fakultät,Privatdozierende,8.0,25.0,50.0
+2013,Theologische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,34.0,38.2,38.2
+2013,Rechtswissenschaftliche Fakultät,Professuren,48.0,27.1,35.4
+2013,Rechtswissenschaftliche Fakultät,Titularprofessuren,26.0,15.4,3.8
+2013,Rechtswissenschaftliche Fakultät,Privatdozierende,20.0,25.0,5.0
+2013,Rechtswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,73.0,24.7,26.0
+2013,Wirtschaftswissenschaftliche Fakultät,Professuren,71.0,8.5,73.2
+2013,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,17.0,11.8,23.5
+2013,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,27.0,25.9,40.7
+2013,Wirtschaftswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,178.0,20.2,49.4
+2013,Medizinische Fakultät,Professuren,162.0,12.3,48.8
+2013,Medizinische Fakultät,Titularprofessuren,288.0,12.5,15.6
+2013,Medizinische Fakultät,Privatdozierende,411.0,18.2,37.5
+2013,Medizinische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,34.4,31.4,
+2013,Vetsuisse Fakultät,Professuren,30.0,20.0,33.3
+2013,Vetsuisse Fakultät,Titularprofessuren,19.0,5.3,42.1
+2013,Vetsuisse Fakultät,Privatdozierende,33.0,42.4,48.5
+2013,Vetsuisse Fakultät,Lehrbeauftragte / Externe Lehrpersonen,55.0,58.2,34.5
+2013,Philosophische Fakultät,Professuren,151.0,33.1,60.3
+2013,Philosophische Fakultät,Titularprofessuren,83.0,33.7,12.0
+2013,Philosophische Fakultät,Privatdozierende,92.0,43.5,27.2
+2013,Philosophische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,714.0,53.4,43.8
+2013,Mathematisch-naturwissenschaftliche Fakultät,Professuren,108.0,14.8,60.2
+2013,Mathematisch-naturwissenschaftliche Fakultät,Titularprofessuren,39.0,10.3,12.8
+2013,Mathematisch-naturwissenschaftliche Fakultät,Privatdozierende,62.0,11.3,50.0
+2013,Mathematisch-naturwissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,326.0,32.5,54.3
+2013,Zentrale Dienste der Universität,Professuren,0.0,0.0,0.0
+2013,Zentrale Dienste der Universität,Titularprofessuren,0.0,0.0,0.0
+2013,Zentrale Dienste der Universität,Privatdozierende,0.0,0.0,0.0
+2013,Zentrale Dienste der Universität,Lehrbeauftragte / Externe Lehrpersonen,40.0,70.0,25.0
+2013,Gesamt Universität,Professuren,584.0,19.5,55.0
+2013,Gesamt Universität,Titularprofessuren,479.0,15.9,15.4
+2013,Gesamt Universität,Privatdozierende,653.0,23.0,37.1
+2013,Gesamt Universität,Lehrbeauftragte / Externe Lehrpersonen,39.3,38.9,
+2012,Theologische Fakultät,Professuren,12.0,16.7,50.0
+2012,Theologische Fakultät,Titularprofessuren,7.0,,28.6
+2012,Theologische Fakultät,Privatdozierende,6.0,66.7,50.0
+2012,Theologische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,41.0,31.7,43.9
+2012,Rechtswissenschaftliche Fakultät,Professuren,46.0,23.9,32.6
+2012,Rechtswissenschaftliche Fakultät,Titularprofessuren,26.0,15.4,3.8
+2012,Rechtswissenschaftliche Fakultät,Privatdozierende,19.0,26.3,5.3
+2012,Rechtswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,95.0,22.1,28.4
+2012,Wirtschaftswissenschaftliche Fakultät,Professuren,68.0,8.8,70.6
+2012,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,17.0,11.8,23.5
+2012,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,26.0,26.9,42.3
+2012,Wirtschaftswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,174.0,25.3,51.1
+2012,Medizinische Fakultät,Professuren,155.0,10.3,51.0
+2012,Medizinische Fakultät,Titularprofessuren,270.0,11.1,14.4
+2012,Medizinische Fakultät,Privatdozierende,395.0,18.5,34.9
+2012,Medizinische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,32.5,29.7,
+2012,Vetsuisse Fakultät,Professuren,26.0,15.4,30.8
+2012,Vetsuisse Fakultät,Titularprofessuren,19.0,5.3,42.1
+2012,Vetsuisse Fakultät,Privatdozierende,33.0,39.4,51.5
+2012,Vetsuisse Fakultät,Lehrbeauftragte / Externe Lehrpersonen,53.0,54.7,30.2
+2012,Philosophische Fakultät,Professuren,144.0,31.9,61.8
+2012,Philosophische Fakultät,Titularprofessuren,81.0,30.9,13.6
+2012,Philosophische Fakultät,Privatdozierende,92.0,41.3,25.0
+2012,Philosophische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,802.0,52.2,45.5
+2012,Mathematisch-naturwissenschaftliche Fakultät,Professuren,101.0,14.9,60.4
+2012,Mathematisch-naturwissenschaftliche Fakultät,Titularprofessuren,34.0,11.8,8.8
+2012,Mathematisch-naturwissenschaftliche Fakultät,Privatdozierende,60.0,8.3,45.0
+2012,Mathematisch-naturwissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,308.0,30.8,54.9
+2012,Zentrale Dienste der Universität,Lehrbeauftragte / Externe Lehrpersonen,33.0,69.7,27.3
+2012,Gesamt Universität,Professuren,552.0,18.1,55.4
+2012,Gesamt Universität,Titularprofessuren,454.0,14.5,15.0
+2012,Gesamt Universität,Privatdozierende,631.0,23.0,34.9
+2012,Gesamt Universität,Lehrbeauftragte / Externe Lehrpersonen,38.6,39.3,
+2011,Theologische Fakultät,Professuren,13.0,15.4,53.8
+2011,Theologische Fakultät,Titularprofessuren,5.0,,20.0
+2011,Theologische Fakultät,Privatdozierende,8.0,50.0,50.0
+2011,Theologische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,28.0,32.1,39.3
+2011,Rechtswissenschaftliche Fakultät,Professuren,43.0,23.3,32.6
+2011,Rechtswissenschaftliche Fakultät,Titularprofessuren,25.0,12.0,4.0
+2011,Rechtswissenschaftliche Fakultät,Privatdozierende,17.0,23.5,
+2011,Rechtswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,85.0,25.9,25.9
+2011,Wirtschaftswissenschaftliche Fakultät,Professuren,66.0,9.1,69.7
+2011,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,17.0,11.8,23.5
+2011,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,27.0,29.6,44.4
+2011,Wirtschaftswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,177.0,22.6,50.8
+2011,Medizinische Fakultät,Professuren,159.0,10.7,50.3
+2011,Medizinische Fakultät,Titularprofessuren,256.0,11.7,14.1
+2011,Medizinische Fakultät,Privatdozierende,369.0,17.9,36.0
+2011,Medizinische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,967.0,31.7,27.9
+2011,Vetsuisse Fakultät,Professuren,26.0,11.5,26.9
+2011,Vetsuisse Fakultät,Titularprofessuren,17.0,5.9,41.2
+2011,Vetsuisse Fakultät,Privatdozierende,30.0,36.7,43.3
+2011,Vetsuisse Fakultät,Lehrbeauftragte / Externe Lehrpersonen,50.0,52.0,34.0
+2011,Philosophische Fakultät,Professuren,143.0,31.5,60.8
+2011,Philosophische Fakultät,Titularprofessuren,76.0,30.3,15.8
+2011,Philosophische Fakultät,Privatdozierende,107.0,37.4,27.1
+2011,Philosophische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,768.0,51.2,43.2
+2011,Mathematisch-naturwissenschaftliche Fakultät,Professuren,98.0,13.3,59.2
+2011,Mathematisch-naturwissenschaftliche Fakultät,Titularprofessuren,36.0,11.1,8.3
+2011,Mathematisch-naturwissenschaftliche Fakultät,Privatdozierende,55.0,9.1,47.3
+2011,Mathematisch-naturwissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,300.0,27.7,49.3
+2011,Zentrale Dienste der Universität,Lehrbeauftragte / Externe Lehrpersonen,34.0,70.6,26.5
+2011,Gesamt Universität,Professuren,548.0,17.5,54.6
+2011,Gesamt Universität,Titularprofessuren,432.0,14.6,14.8
+2011,Gesamt Universität,Privatdozierende,613.0,22.5,35.4
+2011,Gesamt Universität,Lehrbeauftragte / Externe Lehrpersonen,37.5,37.3,
+2010,Theologische Fakultät,Professuren,13.0,15.4,53.8
+2010,Theologische Fakultät,Titularprofessuren,5.0,,20.0
+2010,Theologische Fakultät,Privatdozierende,8.0,37.5,50.0
+2010,Theologische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,31.0,35.5,45.2
+2010,Rechtswissenschaftliche Fakultät,Professuren,41.0,19.5,31.7
+2010,Rechtswissenschaftliche Fakultät,Titularprofessuren,25.0,12.0,4.0
+2010,Rechtswissenschaftliche Fakultät,Privatdozierende,15.0,20.0,
+2010,Rechtswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,76.0,30.3,17.1
+2010,Wirtschaftswissenschaftliche Fakultät,Professuren,63.0,9.5,68.3
+2010,Wirtschaftswissenschaftliche Fakultät,Titularprofessuren,17.0,11.8,23.5
+2010,Wirtschaftswissenschaftliche Fakultät,Privatdozierende,24.0,25.0,41.7
+2010,Wirtschaftswissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,163.0,21.5,50.3
+2010,Medizinische Fakultät,Professuren,153.0,9.2,48.4
+2010,Medizinische Fakultät,Titularprofessuren,229.0,11.4,14.0
+2010,Medizinische Fakultät,Privatdozierende,357.0,17.9,33.9
+2010,Medizinische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,951.0,31.2,26.8
+2010,Vetsuisse Fakultät,Professuren,28.0,10.7,21.4
+2010,Vetsuisse Fakultät,Titularprofessuren,16.0,12.5,37.5
+2010,Vetsuisse Fakultät,Privatdozierende,33.0,30.3,42.4
+2010,Vetsuisse Fakultät,Lehrbeauftragte / Externe Lehrpersonen,53.0,50.9,37.7
+2010,Philosophische Fakultät,Professuren,136.0,30.9,59.6
+2010,Philosophische Fakultät,Titularprofessuren,68.0,32.4,16.2
+2010,Philosophische Fakultät,Privatdozierende,102.0,31.4,25.5
+2010,Philosophische Fakultät,Lehrbeauftragte / Externe Lehrpersonen,741.0,47.8,40.8
+2010,Mathematisch-naturwissenschaftliche Fakultät,Professuren,97.0,13.4,58.8
+2010,Mathematisch-naturwissenschaftliche Fakultät,Titularprofessuren,34.0,11.8,11.8
+2010,Mathematisch-naturwissenschaftliche Fakultät,Privatdozierende,49.0,8.2,46.9
+2010,Mathematisch-naturwissenschaftliche Fakultät,Lehrbeauftragte / Externe Lehrpersonen,296.0,23.6,44.6
+2010,Zentrale Dienste der Universität,Professuren,,,
+2010,Zentrale Dienste der Universität,Titularprofessuren,,,
+2010,Zentrale Dienste der Universität,Privatdozierende,,,
+2010,Zentrale Dienste der Universität,Lehrbeauftragte / Externe Lehrpersonen,35.0,100.0,31.4
+2010,Gesamt Universität,Professuren,531.0,16.6,52.9
+2010,Gesamt Universität,Titularprofessuren,394.0,15.0,15.0
+2010,Gesamt Universität,Privatdozierende,588.0,20.7,33.7
+2010,Gesamt Universität,Lehrbeauftragte / Externe Lehrpersonen,2346.0,36.3,35.3
