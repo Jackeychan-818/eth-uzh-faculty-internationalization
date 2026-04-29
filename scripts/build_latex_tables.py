@@ -1,6 +1,6 @@
 """Build LaTeX tables:
   - ETH: hierarchical Faculty/Department/Rank × year (split 2006-2015 and 2016-2025)
-  - UZH: hierarchical Faculty/Rank × year (2010-2024), built from a cleaned
+  - UZH: hierarchical Faculty/Rank × year (2009-2024), built from a cleaned
     long-format table because the raw CSV interleaves faculty headers and ranks.
 
 Also writes uzh_dozierende_clean.csv for inspection.
@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
 PROCESSED = ROOT / "data" / "processed"
 TABLES = ROOT / "output" / "tables"
-UZH_CSV = RAW / "UZH_Dozierende_2010-2024.csv"
+UZH_CSV = RAW / "UZH_Dozierende_2009-2024.csv"
 ETH_TOTAL = RAW / "ETH_Prof_Counts_2006_2025.csv"
 ETH_FOREIGN = RAW / "ETH_Auslander_Prof_Counts_2006_2025.csv"
 UZH_CLEAN = PROCESSED / "uzh_dozierende_clean.csv"
@@ -112,6 +112,22 @@ def clean_uzh(path: Path) -> pd.DataFrame:
         if kat in SKIP_KATEGORIE or kat.startswith("(") or kat == "":
             continue
         year = int(row["Report_Jahr"])
+        # 2009 uses a flat layout: each row is a Professuren total (university-
+        # wide "Total" + one row per faculty) with real Frauen_%/Auslaendische_%.
+        if year == 2009:
+            canon = FACULTY_CANON.get(kat)
+            if canon is None:
+                continue
+            records.append({
+                "Year": year,
+                "Faculty": canon,
+                "Rank": "Professuren",
+                "Total": pd.to_numeric(row["Total"], errors="coerce"),
+                "Frauen_%": pd.to_numeric(row["Frauen_%"], errors="coerce"),
+                "Auslaendische_%": pd.to_numeric(
+                    row["Auslaendische_%"], errors="coerce"),
+            })
+            continue
         if kat in RAW_RANKS:
             if current_faculty is None:
                 continue

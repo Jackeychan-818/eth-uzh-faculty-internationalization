@@ -7,15 +7,12 @@ ETH section (from data/processed/eth_prof_auslaender_summary.csv):
   - Page 1: Overall stacked bars (Full/Asst × Swiss/Foreign) + Foreign % line.
   - Pages 2+: one page per faculty, line chart of Foreign % by rank.
 
-UZH section (from data/raw/UZH_Dozierende_2009-2024.csv):
-  - Page 1: Overall stacked bars (Swiss/Foreign Professuren) + Foreign % line.
-    Professoren totals: 2009 from Kategorie=="Total" (user-supplied 2009 row is
-    the Professuren sum); 2010–2024 from Kategorie.startswith("Professuren")
-    picking the university-wide grand-total row per year (max Total).
-  - Pages 2–8: one page per faculty, Foreign % line chart.
-    2009 values come directly from the per-faculty row added that year;
-    2010–2024 values come from Kategorie == "Professuren" rows under each
-    Faktät block in the walked layout (same logic as scripts/build_latex_tables.py).
+UZH section (from data/processed/uzh_dozierende_clean.csv, produced by
+scripts/build_latex_tables.py):
+  - Page 1: Overall stacked bars (Swiss/Foreign Professuren) + Foreign % line,
+    sourced from Faculty == "Gesamt Universität", Rank == "Professuren".
+  - Pages 2–8: one page per faculty, Foreign % line chart, sourced from
+    Rank == "Professuren" filtered to that faculty.
 """
 
 from pathlib import Path
@@ -27,11 +24,11 @@ from matplotlib.backends.backend_pdf import PdfPages
 
 ROOT = Path(__file__).resolve().parent.parent
 PROCESSED = ROOT / "data" / "processed"
-RAW = ROOT / "data" / "raw"
 OUT_DIR = ROOT / "output" / "reports"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 OUT_PDF = OUT_DIR / "Professor_Trends_Report_ETH_UZH.pdf"
+OUT_PDF_DETAILED = OUT_DIR / "Professor_Trends_Report_ETH_UZH_detailed.pdf"
 
 plt.rcParams.update({
     "font.family": "DejaVu Sans",
@@ -44,10 +41,14 @@ plt.rcParams.update({
     "figure.dpi": 120,
 })
 
-SWISS_COLOR = "#1f77b4"
-FOREIGN_COLOR = "#d62728"
-SWISS_LIGHT = "#7fb3d5"
-FOREIGN_LIGHT = "#f1948a"
+# Color scheme:
+#   blue  = Full Professor / Professuren
+#   red   = Assistant Professor
+#   lighter shade of each = the foreign portion of that rank
+FULL_COLOR = "#1f77b4"          # dark blue  — Full Prof, Swiss
+FULL_LIGHT = "#7fb3d5"          # light blue — Full Prof, Foreign
+ASST_COLOR = "#d62728"          # dark red   — Assistant Prof, Swiss
+ASST_LIGHT = "#f1948a"          # light red  — Assistant Prof, Foreign
 LINE_COLOR = "#2c3e50"
 
 
@@ -74,15 +75,16 @@ def eth_overall_page(df: pd.DataFrame) -> plt.Figure:
     grand_for = full_for + asst_for
     foreign_pct = grand_for / grand_total * 100
 
-    fig, ax1 = plt.subplots(figsize=(11.5, 7))
+    fig, ax1 = plt.subplots(figsize=(9, 7.5))
 
-    ax1.bar(years, full_swiss, label="Full Prof — Swiss", color=SWISS_COLOR, width=0.75)
+    ax1.bar(years, full_swiss, label="Full Prof — Swiss",
+            color=FULL_COLOR, width=0.75)
     ax1.bar(years, full_for, bottom=full_swiss, label="Full Prof — Foreign",
-            color=FOREIGN_COLOR, width=0.75)
+            color=FULL_LIGHT, width=0.75)
     ax1.bar(years, asst_swiss, bottom=full_swiss + full_for,
-            label="Assistant Prof — Swiss", color=SWISS_LIGHT, width=0.75)
+            label="Assistant Prof — Swiss", color=ASST_COLOR, width=0.75)
     ax1.bar(years, asst_for, bottom=full_swiss + full_for + asst_swiss,
-            label="Assistant Prof — Foreign", color=FOREIGN_LIGHT, width=0.75)
+            label="Assistant Prof — Foreign", color=ASST_LIGHT, width=0.75)
 
     ax1.set_xlabel("Year")
     ax1.set_ylabel("Number of professors")
@@ -105,37 +107,72 @@ def eth_overall_page(df: pd.DataFrame) -> plt.Figure:
     return fig
 
 
-def eth_faculty_page(df: pd.DataFrame, faculty: str) -> plt.Figure:
-    """One page per ETH faculty: Foreign % line, one series per rank."""
+def _eth_faculty_axes(df: pd.DataFrame, faculty: str, ax: plt.Axes) -> None:
     sub = df[df["Faculty"] == faculty].copy()
     agg = (sub.groupby(["Rank", "Year"])
            .agg({"Total": "sum", "Foreign": "sum"})
            .reset_index())
     agg["Foreign %"] = agg["Foreign"] / agg["Total"] * 100
 
-    fig, ax = plt.subplots(figsize=(11.5, 7))
     rank_styles = {
-        "Full Prof": {"color": SWISS_COLOR, "marker": "o"},
-        "Assistant Prof": {"color": FOREIGN_COLOR, "marker": "s"},
+        "Full Prof": {"color": FULL_COLOR, "marker": "o"},
+        "Assistant Prof": {"color": ASST_COLOR, "marker": "s"},
     }
     for rank, style in rank_styles.items():
         s = agg[agg["Rank"] == rank].sort_values("Year")
         if s.empty:
             continue
-        ax.plot(s["Year"], s["Foreign %"], linewidth=2.2, markersize=6,
+        ax.plot(s["Year"], s["Foreign %"], linewidth=1.6, markersize=4,
                 label=rank, **style)
 
-    ax.set_xlabel("Year")
-    ax.set_ylabel("Foreign share (%)")
     ax.set_ylim(0, 105)
     ax.grid(True, alpha=0.3)
-    ax.legend(loc="best", framealpha=0.9)
-    ax.set_title(f"{faculty} — Professor Foreign Percentage Trends (2006–2025)")
-
+    ax.set_title(faculty, fontsize=10)
     years_all = sorted(agg["Year"].unique())
+    ax.set_xticks(years_all[::3])
+    ax.tick_params(axis="x", rotation=45, labelsize=8)
+    ax.tick_params(axis="y", labelsize=8)
+
+
+def eth_faculty_page(df: pd.DataFrame, faculty: str) -> plt.Figure:
+    """Single ETH faculty on its own page (line chart, both ranks)."""
+    fig, ax = plt.subplots(figsize=(11.5, 7))
+    _eth_faculty_axes(df, faculty, ax)
+    ax.set_title(f"{faculty} — Professor Foreign Percentage Trends (2006–2025)",
+                 fontsize=14)
+    ax.set_xlabel("Year")
+    ax.set_ylabel("Foreign share (%)")
+    sub = df[df["Faculty"] == faculty]
+    years_all = sorted(sub["Year"].unique())
     ax.set_xticks(years_all)
-    ax.set_xticklabels(years_all, rotation=45)
+    ax.tick_params(axis="x", rotation=45, labelsize=10)
+    ax.tick_params(axis="y", labelsize=10)
+    ax.legend(loc="best", framealpha=0.9)
     fig.tight_layout()
+    return fig
+
+
+def eth_faculty_grid_page(df: pd.DataFrame, faculties: list[str]) -> plt.Figure:
+    """All ETH faculties on one page: row 0 has 3 plots, row 1 has plots in
+    cols 0 and 2 with the shared legend filling the middle cell."""
+    fig = plt.figure(figsize=(11, 8.5))
+    gs = fig.add_gridspec(2, 3, hspace=0.55, wspace=0.3)
+    positions = [(0, 0), (0, 1), (0, 2), (1, 0), (1, 2)]
+    axes = []
+    for faculty, (r, c) in zip(faculties, positions):
+        ax = fig.add_subplot(gs[r, c])
+        _eth_faculty_axes(df, faculty, ax)
+        axes.append(ax)
+        if c == 0:
+            ax.set_ylabel("Foreign %", fontsize=9)
+    # Legend axis in the centre cell of row 1.
+    legend_ax = fig.add_subplot(gs[1, 1])
+    legend_ax.axis("off")
+    handles, labels = axes[0].get_legend_handles_labels()
+    legend_ax.legend(handles, labels, loc="center", fontsize=11,
+                     framealpha=0.9, title="Rank", title_fontsize=11)
+    fig.suptitle("ETH Zurich — Foreign Professor Share by Faculty (2006–2025)",
+                 fontsize=14, fontweight="bold", y=0.98)
     return fig
 
 
@@ -146,35 +183,24 @@ UZH_FACULTIES = [
     "Rechtswissenschaftliche Fakultät",
     "Wirtschaftswissenschaftliche Fakultät",
     "Medizinische Fakultät",
-    "Vetsuisse-Fakultät",
+    "Vetsuisse Fakultät",
     "Philosophische Fakultät",
     "Mathematisch-naturwissenschaftliche Fakultät",
 ]
+UZH_OVERALL_FACULTY = "Gesamt Universität"
 
-# Raw CSV uses mixed punctuation across years ("Vetsuisse-Fakultät" vs
-# "Vetsuisse Fakultät"). Match on a normalised key.
-def _norm(s: str) -> str:
-    return s.replace("-", " ").lower().strip()
+
+def _load_uzh_clean() -> pd.DataFrame:
+    return pd.read_csv(PROCESSED / "uzh_dozierende_clean.csv")
 
 
 def load_uzh_overall() -> pd.DataFrame:
     """University-wide Professuren count + Foreign % per year (2009–2024)."""
-    uzh = pd.read_csv(RAW / "UZH_Dozierende_2009-2024.csv")
-
-    # 2010–2024: rows whose Kategorie starts with "Professuren"; university-wide
-    # row is the one with the largest Total in that year.
-    profs = uzh[uzh["Kategorie"].str.startswith("Professuren", na=False)].copy()
-    uniwide = profs.loc[profs.groupby("Report_Jahr")["Total"].idxmax()].copy()
-    uniwide = uniwide[["Report_Jahr", "Total", "Auslaendische_%"]]
-
-    # 2009: per the user-supplied rows, the Kategorie == "Total" entry for 2009
-    # is the Professuren sum (520). Other years' "Total" rows are all-staff and
-    # not directly comparable, so only the 2009 one is picked up here.
-    tot2009 = uzh[(uzh["Kategorie"] == "Total") & (uzh["Report_Jahr"] == 2009)]
-    tot2009 = tot2009[["Report_Jahr", "Total", "Auslaendische_%"]]
-
-    out = pd.concat([tot2009, uniwide], ignore_index=True)
-    out = out.sort_values("Report_Jahr").reset_index(drop=True)
+    df = _load_uzh_clean()
+    out = df[(df["Faculty"] == UZH_OVERALL_FACULTY)
+             & (df["Rank"] == "Professuren")].copy()
+    out = (out[["Year", "Total", "Auslaendische_%"]]
+           .sort_values("Year").reset_index(drop=True))
     out["Foreign"] = (out["Total"] * out["Auslaendische_%"] / 100).round(1)
     out["Swiss"] = (out["Total"] - out["Foreign"]).round(1)
     return out
@@ -182,70 +208,25 @@ def load_uzh_overall() -> pd.DataFrame:
 
 def load_uzh_by_faculty() -> pd.DataFrame:
     """Per-faculty Professuren foreign % by year (2009–2024), long format."""
-    uzh = pd.read_csv(RAW / "UZH_Dozierende_2009-2024.csv")
-    records = []
-
-    # 2009: Faculty rows appear directly (walked layout not used that year).
-    fac_keys = {_norm(f): f for f in UZH_FACULTIES}
-    mask_2009 = (uzh["Report_Jahr"] == 2009) & uzh["Kategorie"].map(
-        lambda k: _norm(str(k)) in fac_keys
-    )
-    for _, row in uzh[mask_2009].iterrows():
-        canon = fac_keys[_norm(row["Kategorie"])]
-        records.append({
-            "Year": 2009,
-            "Faculty": canon,
-            "Foreign %": row["Auslaendische_%"],
-        })
-
-    # 2010–2024: walked layout — faculty-name row followed by rank rows.
-    # We want Kategorie == "Professuren" (or starts with "Professuren")
-    # scoped to the current faculty block. Reuse the look-ahead logic:
-    # reset faculty when a faculty-name row is seen; for "Professuren" rows
-    # inside the block, emit a record.
-    current_faculty = None
-    for _, row in uzh.iterrows():
-        if row["Report_Jahr"] == 2009:
-            continue
-        kat = str(row["Kategorie"]).strip()
-        norm_kat = _norm(kat)
-        if norm_kat in fac_keys:
-            # Could be a walked-faculty header OR a flat supplementary row.
-            current_faculty = fac_keys[norm_kat]
-            # Flat supplementary row: Frauen_% is NaN and Auslaendische_% is
-            # a valid percentage — treat it as Professuren for that faculty.
-            if pd.isna(row["Frauen_%"]) and pd.notna(row["Auslaendische_%"]):
-                records.append({
-                    "Year": int(row["Report_Jahr"]),
-                    "Faculty": current_faculty,
-                    "Foreign %": row["Auslaendische_%"],
-                })
-            continue
-        if current_faculty is not None and kat.startswith("Professuren"):
-            if pd.notna(row["Auslaendische_%"]):
-                records.append({
-                    "Year": int(row["Report_Jahr"]),
-                    "Faculty": current_faculty,
-                    "Foreign %": row["Auslaendische_%"],
-                })
-
-    df = pd.DataFrame(records)
-    # Supplementary flat rows should override earlier walked entries when both
-    # exist for the same (year, faculty).
-    df = df.drop_duplicates(subset=["Year", "Faculty"], keep="last")
-    return df.sort_values(["Faculty", "Year"]).reset_index(drop=True)
+    df = _load_uzh_clean()
+    sub = df[(df["Rank"] == "Professuren")
+             & (df["Faculty"].isin(UZH_FACULTIES))].copy()
+    sub = sub.rename(columns={"Auslaendische_%": "Foreign %"})
+    return (sub[["Year", "Faculty", "Foreign %"]]
+            .sort_values(["Faculty", "Year"]).reset_index(drop=True))
 
 
 def uzh_overall_page(df: pd.DataFrame) -> plt.Figure:
-    years = df["Report_Jahr"].values
+    years = df["Year"].values
     swiss = df["Swiss"].values
     foreign = df["Foreign"].values
     pct = df["Auslaendische_%"].values
 
-    fig, ax1 = plt.subplots(figsize=(11.5, 7))
-    ax1.bar(years, swiss, label="Swiss", color=SWISS_COLOR, width=0.75)
-    ax1.bar(years, foreign, bottom=swiss, label="Foreign",
-            color=FOREIGN_COLOR, width=0.75)
+    fig, ax1 = plt.subplots(figsize=(9, 7.5))
+    ax1.bar(years, swiss, label="Professuren — Swiss",
+            color=FULL_COLOR, width=0.75)
+    ax1.bar(years, foreign, bottom=swiss, label="Professuren — Foreign",
+            color=FULL_LIGHT, width=0.75)
     ax1.set_xlabel("Year")
     ax1.set_ylabel("Number of professors (Professuren)")
     ax1.set_xticks(years)
@@ -267,21 +248,53 @@ def uzh_overall_page(df: pd.DataFrame) -> plt.Figure:
     return fig
 
 
-def uzh_faculty_page(df: pd.DataFrame, faculty: str) -> plt.Figure:
+def _uzh_faculty_axes(df: pd.DataFrame, faculty: str, ax: plt.Axes) -> None:
     sub = df[df["Faculty"] == faculty].sort_values("Year")
-    fig, ax = plt.subplots(figsize=(11.5, 7))
-    ax.plot(sub["Year"], sub["Foreign %"], color=FOREIGN_COLOR,
-            linewidth=2.2, marker="o", markersize=6, label="Foreign %")
-    ax.set_xlabel("Year")
-    ax.set_ylabel("Foreign share (%)")
+    # Professuren foreign-share line — light blue (foreign shade of "Full" rank).
+    ax.plot(sub["Year"], sub["Foreign %"], color=FULL_LIGHT,
+            linewidth=1.8, marker="o", markersize=4,
+            markeredgecolor=FULL_COLOR)
     ax.set_ylim(0, 105)
     ax.grid(True, alpha=0.3)
-    ax.legend(loc="best", framealpha=0.9)
-    ax.set_title(f"{faculty} — Professor Foreign Percentage Trends (2009–2024)")
+    ax.set_title(faculty, fontsize=9)
+    years = sorted(sub["Year"].unique())
+    ax.set_xticks(years[::3])
+    ax.tick_params(axis="x", rotation=45, labelsize=8)
+    ax.tick_params(axis="y", labelsize=8)
+
+
+def uzh_faculty_page(df: pd.DataFrame, faculty: str) -> plt.Figure:
+    """Single UZH faculty on its own page."""
+    fig, ax = plt.subplots(figsize=(11.5, 7))
+    _uzh_faculty_axes(df, faculty, ax)
+    ax.set_title(f"{faculty} — Professor Foreign Percentage Trends (2009–2024)",
+                 fontsize=14)
+    ax.set_xlabel("Year")
+    ax.set_ylabel("Foreign share (%)")
+    sub = df[df["Faculty"] == faculty]
     years = sorted(sub["Year"].unique())
     ax.set_xticks(years)
-    ax.set_xticklabels(years, rotation=45)
+    ax.tick_params(axis="x", rotation=45, labelsize=10)
+    ax.tick_params(axis="y", labelsize=10)
     fig.tight_layout()
+    return fig
+
+
+def uzh_faculty_grid_page(df: pd.DataFrame, faculties: list[str]) -> plt.Figure:
+    """All UZH faculties on one page in a 2-2-3 layout via a 3x3 grid."""
+    fig = plt.figure(figsize=(11, 9))
+    gs = fig.add_gridspec(3, 3, hspace=0.65, wspace=0.3)
+    # Row 0: faculties 0,1 in cols 0,1 (col 2 hidden)
+    # Row 1: faculties 2,3 in cols 0,1 (col 2 hidden)
+    # Row 2: faculties 4,5,6 across cols 0,1,2
+    positions = [(0, 0), (0, 1), (1, 0), (1, 1), (2, 0), (2, 1), (2, 2)]
+    for faculty, (r, c) in zip(faculties, positions):
+        ax = fig.add_subplot(gs[r, c])
+        _uzh_faculty_axes(df, faculty, ax)
+        if c == 0:
+            ax.set_ylabel("Foreign %", fontsize=9)
+    fig.suptitle("UZH — Foreign Professor Share by Faculty (2009–2024)",
+                 fontsize=14, fontweight="bold", y=0.98)
     return fig
 
 
@@ -299,23 +312,30 @@ def main() -> None:
     uzh_overall = load_uzh_overall()
     uzh_fac = load_uzh_by_faculty()
 
-    pages = []
-    pages.append(("eth_overall", lambda: eth_overall_page(eth)))
+    compact_pages = [
+        ("eth_overall", lambda: eth_overall_page(eth)),
+        ("eth_faculty_grid", lambda: eth_faculty_grid_page(eth, eth_faculties)),
+        ("uzh_overall", lambda: uzh_overall_page(uzh_overall)),
+        ("uzh_faculty_grid", lambda: uzh_faculty_grid_page(uzh_fac, UZH_FACULTIES)),
+    ]
+
+    detailed_pages = [("eth_overall", lambda: eth_overall_page(eth))]
     for f in eth_faculties:
-        pages.append((f"eth_{f}", lambda f=f: eth_faculty_page(eth, f)))
-    pages.append(("uzh_overall", lambda: uzh_overall_page(uzh_overall)))
+        detailed_pages.append((f"eth_{f}", lambda f=f: eth_faculty_page(eth, f)))
+    detailed_pages.append(("uzh_overall", lambda: uzh_overall_page(uzh_overall)))
     for f in UZH_FACULTIES:
-        pages.append((f"uzh_{f}", lambda f=f: uzh_faculty_page(uzh_fac, f)))
+        detailed_pages.append((f"uzh_{f}", lambda f=f: uzh_faculty_page(uzh_fac, f)))
 
-    total = len(pages)
-    with PdfPages(OUT_PDF) as pdf:
-        for i, (tag, maker) in enumerate(pages, start=1):
-            fig = maker()
-            add_page_number(fig, i, total)
-            pdf.savefig(fig, bbox_inches="tight")
-            plt.close(fig)
-
-    print(f"Wrote {OUT_PDF.relative_to(ROOT)} — {total} pages")
+    for out_path, pages in [(OUT_PDF, compact_pages),
+                            (OUT_PDF_DETAILED, detailed_pages)]:
+        total = len(pages)
+        with PdfPages(out_path) as pdf:
+            for i, (_tag, maker) in enumerate(pages, start=1):
+                fig = maker()
+                add_page_number(fig, i, total)
+                pdf.savefig(fig, bbox_inches="tight")
+                plt.close(fig)
+        print(f"Wrote {out_path.relative_to(ROOT)} — {total} pages")
 
 
 if __name__ == "__main__":
